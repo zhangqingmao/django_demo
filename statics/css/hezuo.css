@@ -1,0 +1,98 @@
+/*重新定义meishi的页面字体颜色 字号*/
+body {
+	color: #333;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+}
+/*定义超链接的颜色*/
+a {
+	color: #333;
+}
+/*重新定义鼠标放上去的显示的颜色*/
+a:hover {
+	color: #0047ff;
+}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,tr,td {
+	padding:0px;
+	margin:0px;
+}
+.container {
+	width: 1340px;
+	margin: 0px auto;
+} 
+/*头部 S*/
+.header {
+    width: 1100px;
+    padding:20px 0px 18px;
+    margin:0 auto;
+}
+.header img {
+    float:left;
+    width: 150px;
+    vertical-align: middle;
+}
+.header h2 {
+    display: inline-block;
+    color:#555;
+    font-size:32px;
+    font-weight: normal;
+    margin-left:15px;
+}
+/*头部 E*/
+/*中间内容 S*/
+.content {
+    margin:0 auto;
+    width: 1600px;
+    height: 664px;
+    background: url(../images/shangjia/intro_banner.jpg) no-repeat;
+    overflow: hidden;
+}
+.content .hezuo {
+    width: 304px;
+    height: 63px;
+    color:#fff;
+    text-align: center;   
+    line-height: 63px;
+    font-size: 24px;
+    margin:32% auto 0px;
+    background-color: #EE5B3A;
+    border-radius: 32px;
+    color: #FFF;
+}
+.content .hezuo a {
+	color:#fff;
+	 text-decoration: none;
+}
+.daibaio {
+	width: 100%;
+	background-color:#fff;
+}
+
+ .title {
+    width: 328px;
+    height: 44px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #666;
+    border-bottom: 5px solid #EBEBEB;
+    margin:80px auto 0px;
+}
+.title span {
+	display: inline-block;
+    width: 156px;
+    padding: 0 15px;
+    background-color: #FFF;
+}
+.daibaio .shop ul {
+	width: 960px;
+    margin: 148px auto 56px;
+    overflow: hidden;
+}
+.mas {
+    width: 1340px;
+    height: 350px;
+ 	margin: 0px auto;
+    background: url(../images/shangjia/shop1.png) no-repeat;
+}
+/*中间内容 E*/

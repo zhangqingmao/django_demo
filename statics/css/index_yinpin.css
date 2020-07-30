@@ -1,0 +1,309 @@
+/*清除默认元素*/
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,table,tr,td {
+	margin: 0px;
+	padding: 0px;
+}
+/*重新定义超链接的颜色*/
+a {
+	color: #333;
+}
+/*重新定义鼠标放置在超链接上的样式（：hover）*/
+a:hover {
+	color: #0047ff;
+}
+
+/*=====================*/
+
+/*清除浮动*/
+/*双清*/
+.clearfix:before, .clearfix:after {
+	content: ".";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+/*兼容*/
+.clearfix {
+	*zoom: 1;
+} 
+/*设置统一样式*/
+body {
+	font: #333 22px/1.5em '华文行楷';
+	background-color: #d4a7a7;
+}
+.container {
+	width: 1190px;
+	margin: 0px auto;
+	height: 100%;
+}
+
+
+/*设置一些颜色*/
+.color-pink {
+	background-color: pink;
+}
+.color-gray {
+	background-color: gray;
+}
+.color-blue {
+	background-color: skyblue;
+}
+.color-orange {
+	background-color: orange;
+}
+.color-green {
+	background-color: #0f0;
+}
+.color-red {
+	background-color: red;
+}
+
+
+/* 顶部定位栏 S */
+.header {
+	background-color: #f8f8f8;
+	margin-bottom: 0px;
+}
+.header .nav {
+	background-color: #f8f8f8;
+}
+.header .nright {
+	height: 30px;
+}
+.header .nright a {
+	font-size: 12px;
+}
+/* 顶部定位栏 E */
+
+
+/*顶部导航栏  S */
+.nav {
+	background-color: #fff;
+}
+
+.nav .coffee {
+	height: 100px;
+}
+.nav .container img {
+	float:left;
+	width: 126px;
+	height: 46px;
+	margin-top: 23px;
+}
+.nav .coffee ul {
+	float: right;
+	margin-top: 28px;
+}
+
+.nav ul li {
+	display: inline-block;
+	list-style: none;	
+	padding-left: 15px;
+}
+.nav li a {
+	font-size: 32px;
+	text-decoration: none;
+	color: #24d6bf;
+}
+
+/*顶部导航栏  E */
+
+/* 过渡段 S */
+.caidan {
+	height: 222px;
+	background-color: #efecec;
+	margin-top: -4px;
+}
+.caidan .container {
+	width: 773px;
+	position: relative;
+}
+.caidan .gediao .title {
+	position: relative;
+    top: -5px;
+	display: inline-block;
+	font-size: 70px;
+    color: #106e4b;
+    font-family: '华文行楷';
+}
+.caidan .title p {
+	display: inline-block;
+	font-size: 20px;
+	position: absolute;
+	top: 0px;
+}
+.caidan .gediao .erweima {
+	display: inline-block;
+    padding: 57px 20px;
+    margin-left: 20px;
+}
+.caidan .erweima img {
+	width: 106px;
+}
+.caidan .gediao .coffee{
+	display: inline-block;
+	padding: 0px 25px;
+	width: 98px;
+    height: 162px;
+}
+.caidan .coffee img {
+	display: inline-block;
+	width: 96px;
+    height: 110px;
+}
+.caidan .gediao .self {
+	display: inline-block;
+    color: #106e4b;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+}
+.caidan .self p {
+	padding-top: 25px;
+	font-size: 18px;
+	font-family: '华文行楷';
+}
+/* 过渡段 E */
+
+/* 介绍栏 S  */
+.jieshao {
+	height: 80px;
+	font-size: 46px;
+	line-height: 80px;
+	font-family: '华文行楷';
+	color: #705b5d;
+}
+.jieshao .left {
+	display: inline-block;
+}
+.jieshao .more {
+	display: inline-block;
+	float: right;
+}
+.jieshao .more a {
+	text-decoration: underline;
+	font-family: '微软雅黑';
+	font-size: 20px;
+}
+
+/* 介绍栏 E  */
+
+/* 菜单列表 S */
+
+/* 花式咖啡 S */
+.content .list {
+	display: inline-block;
+	height: 366px;
+	width: 650px;
+	background-image: url(../images/coffee/timg.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: 31px;
+}
+.content .list img {
+	width: 300px;
+    position: absolute;
+    top: 100px;
+}
+/* 花式咖啡 E */
+
+/* 奶昔  S*/
+.content .milk {
+	display: inline-block;
+	background-image: url(../images/coffee/naixi.png);
+	background-repeat: no-repeat;
+	height: 366px;
+	width: 540px;
+	position: absolute;
+	margin-left: 110px;
+}
+.content .milk img {
+	position: absolute;
+	top: 33px;
+	right: 162px;
+}
+/* 奶昔  E*/
+
+/* 中国茶  S */
+.content .tea {
+	height: 450px;
+	background-image: url(../images/coffee/tea.jpg);
+	background-position: right top;
+	position: relative;
+}
+.content .tea img {
+	position: absolute;
+	right: 0px;
+	top: -28px;
+}
+.content .tea p {
+	font-family: '华文行楷';
+	font-size: 30px;
+}
+/*  中国茶  E */
+
+/* 冰激凌 S  */
+.content .ice {
+	height: 1315px;
+	background-image: url(../images/coffee/958PICA58PICsJ4_1024.jpg);
+	background-repeat: no-repeat;
+	font-size: 20px;
+	font-family: '华文行楷';
+	position: relative;
+	color: blue;
+}
+.content .ice span {
+	text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 40px;
+    right: 47px;
+    font-size: 36px;
+    color: #aa6a51;
+}
+.content .ice img:nth-child(3) {
+	position: absolute;
+	top: 625px;
+	left: 25px;
+    width: 470px;
+    height: 655px;
+    
+}
+.content .ice img:nth-child(4) {
+	position: absolute;
+	top: 625px;
+    left: 600px
+}
+.content .ice img:nth-child(5) {
+	width: 340px;
+    height: 350px;
+    position: absolute;
+    top: 930px;
+    left: 345px;
+}
+.content .ice img:nth-child(6) {
+	position: absolute;
+	top : 998px;
+	left: 630px;
+}
+.content .ice p {
+	position: absolute;
+	top: 1205px;
+    left: 697px;
+    color: #f1dade;
+    font-size: 22px;
+}
+/* 冰激凌 E  */
+
+/* 菜单列表 E */
+
+/* 底部版权 S  */
+.footer-copy .fcopy-left p {
+	color : #333;
+}
+.footer-copy a {
+	color: #333;
+}
+/* 底部版权 E  */

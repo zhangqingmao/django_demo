@@ -1,0 +1,158 @@
+/*重新定义meishi的页面字体颜色 字号*/
+body {
+	color: #333;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+}
+/*定义超链接的颜色*/
+a {
+	color: #333;
+}
+/*重新定义鼠标放上去的显示的颜色*/
+a:hover {
+	color: #0047ff;
+}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,tr,td {
+	padding:0px;
+	margin:0px;
+}
+.container {
+	width: 1340px;
+	margin: 0px auto;
+}
+/*表头图片  S*/
+.header {
+
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+.header .hgimg img{
+	width: 450px;
+	height: 90px;
+	margin-top: 50px;
+}
+/*表头图片  E*/
+
+/*合作的业务 S*/
+.content {
+	display: inline-block;
+	width: 800px;
+	height: 150px;
+	background-color: #fff;
+}
+.content span {
+	margin-top: 10px;
+	display: inline-block;
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	border-left: 6px solid #00f;
+	font-size: 20px;
+}
+.content .one {
+  	width: 500px;
+  	height: 50px;
+  	margin-top: 15px;
+}
+.content .one p {
+	display: inline-block;
+	width: 84px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+}
+/*合作的业务 E*/
+
+
+/*公司信息 S*/
+.content1 {
+	width: 800px;
+	background-color: #fff;
+}
+
+.content1 span {
+	margin-top: 10px;
+	display: inline-block;
+	width: 494px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	border-left: 6px solid #00f;
+	font-size: 20px;
+}
+.content1 .two {
+  	width: 500px;
+  	margin-top: 15px;
+  	position: relative;
+}
+.content1 .two input {
+	width: 394px;
+	height: 35px;
+	margin-bottom: 30px;
+}
+.content1 .three {
+	width: 500px;
+	height: 50px;
+	margin-top: 15px;
+}
+.content1 .three b{
+	width: 85px;
+	font-weight: normal;
+	display: inline-block;
+	float:left;
+}
+.content1 .three select {
+	float:left;
+    width: 138px;
+    height: 40px;
+    line-height: 40px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #c2c5ca;
+
+}
+/*公司信息 E*/
+.four {
+	width:500px;
+	margin: 20px auto 0px;
+}
+.four span {
+	float:left;
+	width: 130px;
+	margin-right:50px;
+}
+.photos-picker {
+	width: 200px;
+    height: 50px;
+	float:left;
+    cursor: pointer;
+    margin-top:25px;
+}
+.content1 .yzm {
+	height:50px;
+}
+.content1 .yzm b {
+	float:left;
+	font-weight: normal;
+	line-height: 50px;
+	margin-left:30px;
+}
+.content1 .yzm .input1 {
+	float:left;
+	width: 300px;
+}
+.content1 .yzm .data {
+	float:left;
+	margin-left:8px;
+}
+.content1 .tijiao {
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	background-color:skyblue;
+	margin-left:20px;
+}

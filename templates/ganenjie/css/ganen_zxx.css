@@ -1,0 +1,123 @@
+/*清除边距*/
+body,p,div,h1,h2,h3,h4,h5,h6,ul,li,ol,table,tr {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	height: 100%;
+	background-color: #c9d8df;
+	font-family: '华文楷体';
+}
+.container {
+	width: 1190px;
+	margin: 0px auto;
+}
+
+/* 导航介绍栏  S */
+.nav {
+	background-color: #7fc5ac;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 34px;
+	font-family: '华文行楷';
+	color: #180303;
+}
+.nav a {
+	font-size: 34px;
+	color: #180303;
+	line-height: 50px;
+	text-decoration: none;
+	font-family: '华文行楷';
+}
+/* 导航介绍栏  E */
+
+/*正文内容  S*/
+/*  慈母手中线，游子身上衣*/
+.content .contentimg img {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.content .contentimg .poem {
+	float: left;
+	width: 590px;
+	height: 360px;	
+	line-height: 45px;
+	font-size: 20px;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.content .poem h2 {
+	margin : 15px 0px;
+	color: #110f0f;
+}
+.content .poem p:last-child {
+	color: #238437;
+}
+/*  感恩节的由来*/
+.day .container {
+
+}
+.day .time {
+	display: inline-block;
+	float: left;
+	margin-top: 20px;
+}
+.day .time p {
+	font-family: '楷体';
+	font-size: 30px;
+	margin-bottom: 12px;
+	color: #e17171;
+}
+.day .time p:first-child {
+	font-size: 60px;
+}
+.day .time p:nth-child(2) {
+	font-size: 44px;
+}
+.day .time p:last-child {
+	font-size: 52px;
+}
+.day .article {
+	display: inline-block;
+	font-size: 18px;
+	width: 900px;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+.day .article p {
+	padding-bottom: -10px;
+}
+.day .time img {
+	width: 150px;
+	height: 150px;
+}
+/*  对父母的寄语*/
+.day .say .container {
+	margin-top: 20px;
+	height: 500px;
+	background-image: url(../images/u=1412032879,2854536503&fm=200&gp=0.jpg);
+}
+.day .say .poet {
+	width: 630px;
+	float: right;
+	margin-right: 65px;
+	margin-bottom: 30px;
+}
+.day .poet .jiyu {
+	font-size: 45px;
+	font-family: '楷体';
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.day .letter .container {
+	height: 50px;
+}
+.day .letter .muzi {
+	font-size: 40px;
+	float: right;
+	margin-right :-680px;
+}
+/*正文内容  E*/

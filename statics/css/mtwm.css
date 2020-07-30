@@ -1,0 +1,429 @@
+body {
+	color: #333;
+	font-size: 12px/1.5em "微软雅黑"
+	background-color:#f2f2f2;
+	line-height: 1.4;
+	background: url(../images/mtwm/bg.jpg) no-repeat;
+    background-size: 100% auto
+}
+/*重新定义超链接的颜色（a）*/
+a {
+	color: #333;
+	text-decoration: none;
+}
+/*重新定义鼠标移动到超链接上的样式（:hover）*/
+a:hover {
+	color: #333;
+}
+/*清除默认边距*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*居中的盒子*/
+.container {
+	width: 980px;
+	margin:0px auto;
+}
+/*清除浮动*/
+/*双清*/
+.clearfix:before,.clearfix:after{
+	content: ".";
+	height: 0;
+	line-height: 0px;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+/*兼容性*/
+.clearfix {
+	*zoom: 1;
+}
+
+
+div {
+	display: block;
+}
+.color-gray {
+	background-color: gray;
+	height: 100%;
+}
+.color-skyblue {
+	background-color: skyblue;
+	height: 100%;
+}
+.color-green {
+	background-color: #0f0;
+	height: 100%;
+}
+.color-pink {
+	background-color: pink;
+	height: 100%;
+}
+/*大的盒子*/
+.come {
+
+}
+.come .ren {
+	width: 100%;
+	margin:0 auto;
+	opacity: 0.55;
+	background: -webkit-gradient(linear,0 top,0 bottom,from(rgba(0,0,0,.91)),to(rgba(0,0,0,0)));
+}
+/*顶部 栏top  S*/
+.come .top {
+	width: 76%;
+	height: 139px;
+	margin:0 auto;
+
+}
+/*设置顶部图片位置*/
+.come .left img {
+	float: left;
+	vertical-align: top;
+	margin-top: 20px;
+} 
+.come .right .guang {
+	
+	width: 320px;
+	height: 28px;
+	float: right;
+}
+.come .guang li {
+	display: inline-block;
+	width: 71px;
+	height: 28px;
+	background: #fff;
+	opacity: 1px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 2px;
+	margin-top: 20px;
+	color:333;	
+}
+.come .guang li a {
+	font-size: 12px;
+	line-height: 28px;
+}
+.come .guang li a:hover {
+	color:333;
+}
+.come .right .guang li:last-child {
+	width: 118px;
+}
+.come .right .guang li img {
+	width: 12px;
+    vertical-align: -3px;
+    margin-right: 7px;
+}
+/*顶部 栏 top E*/
+
+/*设置一个空白的div*/
+.kongbai {
+	height: 240px;
+}
+
+/*设置中间的text s*/
+.come .text {
+	height: 400px;
+	width: 740px;
+	margin-top: 3px;
+	
+}
+.come .text .left {
+	margin-left: 10px;
+	width: 90px;
+	height: 60px;
+	float: left;
+	background-color: #fff;
+}
+.come .left .suqian {
+	width: 33px;
+	height: 21px;
+	margin: auto auto;
+	margin-top: 20px;
+	display: block;
+	color: #434343;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 37px;
+    padding-left: 20px;
+}
+
+/*=============================================*/
+/*设置隐藏元素*/
+
+.come .left .suqian .block {
+	width: 732px;
+    height: 296px;
+    /* margin-top: -11px; */
+    margin-left: -20px;
+    padding-top: 0px;
+    /* overflow: auto; */
+    /* background-color: #fff; */
+    display: none;
+    overflow: hidden;
+
+}
+/*访问过显示*/
+.come .left:hover .block {
+	display: block;
+}
+  .come .left .block .sanjiao {
+	width: 2;
+	height: 4;
+	visibility: visible;
+	left: 42px;
+	border-width: 6px 5px;
+	border: 6px solid transparent;
+	border-color: transparent transparent #fff;
+	position: absolute;
+	top: 40px;
+}
+
+.come .left .block .fan {
+	margin-top: 29px;
+    padding: 15px 25px;
+    width: 661px;
+    height: 237px;
+    top: 0px;
+    background-color: #fff;
+    overflow: auto;
+}
+.come .left .fan .guess {
+	margin: 10px 25px 0 0;
+    padding-bottom: 14px;
+    display: block;
+    float: left;
+}
+.come .left .fan .guess span {
+	line-height: 28px;
+    font-size: 14px;
+    display: inline-block;
+}
+.come .left .guess .f1 {
+	    float: left;
+}
+.come .left .guess a {
+	height: 30px;
+    padding: 0 14px;
+    margin-left: 16px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.come .block .line {
+	float: left;
+    margin-top: 10px;
+    height: 28px;
+    width: 0;
+    border-right: 1px solid #e5e5e5;
+    margin-right: 25px;
+
+}
+.come .block .text2 {
+	margin-top: 10px;
+    display: inline-block;
+    padding-bottom: 14px;
+    left: 3px;
+    z-index: 99;
+    margin-left: 0px;
+}
+.come .block .text2 input {
+	width: 210px;
+    height: 18px;
+    padding: 5px 0 5px 5px;
+    display: block;
+    line-height: 18px;
+    border: 1px solid #dcdcdc;
+    color: #a9a9a9;
+}
+
+/*诚实列表*/
+.come .block .citylist {
+	padding: 12px 0;
+
+    border-top: 1px dashed #E2E2E2;
+}
+.come .block .first {
+	border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+.come .block .letters {
+	float: left;
+	display: block;
+    color: #898989;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.come .block .citylist ul {
+	margin-left: 70px;
+	padding-left: 0;
+    list-style-type: none;
+
+}
+.come .block .citylist li {
+	float: left;
+    width: 74px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #434343;
+}
+.come .block .citylist li:hover {
+	color:#ffd161;
+}
+/*======================================*/
+
+.come .left .border {
+	position: absolute;
+	left: 62px;
+    top: 10px;
+	width: 0px;
+	height: 8px;
+	border: 5px solid transparent;
+    border-width: 4px 4px;
+    border-top-color: #999;
+}
+
+.come .text .cot {
+	width: 510px;
+	height: 100%;
+	float: left;
+}
+.come .text .cot input {
+	width: 480px;
+    height: 20px;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 10px 20px 20px;
+    color:#666;
+}
+.come .text .right {
+	width: 130px;
+	height: 60px;
+	background-color: #ffd161;
+	float: left;
+}
+.come .text .right a {
+	 display: block;
+    color: #333;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+/*设置中间的text e*/
+
+
+/*商家入驻 logo S*/
+
+.sjrz {
+	display: block;
+	width: 358px;
+	height: 148px;
+	margin: 20px auto 0px;
+	background-image: url(../images/mtwm/enter_bg.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	padding-left: 130px;
+	position: relative;
+}
+.sjrz .left {
+	float: left;
+	position: absolute;
+	top: 15px;
+}
+.sjrz .left h3 {
+	font-size: 18px;
+    font-weight: 700;
+ 	padding-top: 30px;
+}
+.sjrz .left p {
+	margin-top: 8px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.sjrz .right a {
+	float: right;
+    width: 120px;
+    margin-top: 53px;
+    font-size: 16px;
+    color: #FFA735;
+    position: absolute;
+    top: 2px;
+    left: 360px;
+}
+/*商家入驻 logo E*/
+
+/*底部 footer S*/
+.line {
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #E5E5E5;
+	margin-top: 60px;
+	display: block;
+	margin-bottom: 20px;
+}
+.footer {
+	width: 1390px;
+	height: 61px;
+}
+.footer .left {
+width: 50%;
+}
+.footer .left .fa {
+	width: 12%;
+}
+.footer .left li {
+	display: inline-block;
+	width: 7%;
+	height: 17px;
+	margin-top: 20px;
+}
+.footer .left  img{
+	width: 12px;
+    vertical-align: -3px;
+    margin-right: 7px;
+    margin-top: 10px;
+}
+.footer .left a {
+	font-size: 12px;
+	color:#666;
+}
+.footer .left i {
+	font-style: normal;
+	margin: 0px 5px;
+}
+.footer .right {
+	width: 40%;
+	height: 55px;
+	float: right;
+    font-size: 12px;
+    color: #8A8A8A;
+	line-height: 55px;
+	margin-top: -41px;
+}
+.footer .right a {
+	color: #8A8A8A;
+}
+/*底部footer E*/

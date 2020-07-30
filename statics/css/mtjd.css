@@ -1,0 +1,654 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	color:#666;
+}
+/*lolo*/
+#head {
+    height: 122px;
+}
+.logo span{
+    position: relative;
+    bottom: -4px;
+    margin-left: 10px;
+    color: #222;
+    font-size: 17px;
+}
+.logo .head-block {
+        background: #fff;
+    position: relative;
+    bottom: -4px;
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+    margin-left: 14px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+.head_ .right {
+    float: right;
+    width: 160px;
+    height: 50px;
+    border-left: 1px solid #fff;
+    cursor: pointer;
+    position: relative;
+    bottom: 26px;
+}
+/*中间的列表 S*/
+.search-view {
+	border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background-color: #fff;
+   
+}
+.top {
+	   background-color: #ebebeb;
+}
+.top .list {
+	padding: 15px 20px;
+    width: 1148px;
+    height: 37px;
+    margin: 0 auto;
+
+}
+.top .list .one,.top .list .two,.top .list .three {
+	display: inline-block;
+    border: 1px solid #e5e5e5;
+    height: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.top .list .input-title {
+	color:#999;
+	font-size: 12px;
+}
+.top .list .input-text {
+	font-size: 14px;
+    color: #333;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px
+    width: 10px;
+    border: none;
+    outline: none;
+}
+.top .list .two-three {
+	display: inline-block;
+	padding: 0px 6px 0px 7px;
+}
+.top .list .two-three input {
+	width: 120px;
+    margin-top: -3px;
+    color: #666;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.top .list .two-three .icon-img {
+	display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/mtjd/date.jpg);
+    background-size: 100% 100%;
+}
+.top .list .two-three .line {
+	color :#999;
+}
+.top .list .wai {
+	display: inline-block;
+}
+.top .list .fore input{
+	 display: inline-block;
+    border: 1px solid #e5e5e5;
+    height: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0 10px;
+    outline: none;
+    width: 218px;
+ }
+.top .list .top-btn {
+	float: right;
+    margin-top: 2px;
+    line-height: 35px;
+    border: none;
+    padding: 0 29px;
+    background-color: #13d1be;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-align: center;
+    border-radius: 2.15em;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*中间的中部*/
+
+.search-filter {
+    padding: 0 20px;
+    font-size: 14px;
+    height: 100%;
+    width: 1148px;
+    background-color: #fff;
+	
+}
+.search-filter .search-row-wrap {
+	 height: 22px;
+	padding:20px 0px;
+    border-bottom: 0px;
+    line-height: 22px;
+     border-bottom: 1px solid #e5e5e5;
+}
+/*公共的标题显示 s*/
+.search-filter .search-row-title {
+	float: left;
+    width: 60px;
+    color: #000;
+}
+/*公共的标题显示 e*/
+
+/*公共的 不 限 显示样式 s*/
+.search-filter .search-row-unlimited {
+	float: left;
+    width: 80px;
+}
+.search-row-unlimited a.active, .search-row-unlimited a:hover {
+    background-color: #13d1be;
+    color: #fff;
+}
+.search-row-unlimited a {
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 12px;
+    color: #666;
+}
+/*公共的 不 限 显示样式 e*/
+
+
+ .search-row-content {
+    float: left;
+    width: 968px;
+}
+
+
+.search-row-item1 {
+    width: auto;
+    padding: 0 10px;
+    float: left;
+    color: #666;
+}
+
+.search-arrow-tab {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 10px;
+}
+.search-arrow-tab:hover {
+    background-color: #f0fffd;
+    color: #06c1ae;
+}
+.search-arrow-tab .i{
+    display: inline-block;
+      border: 5px solid transparent;
+    border-width: 4px 5px;
+    border-top-color: #999;
+
+}
+
+
+
+/*公共的item显示样式 s*/
+.search-row-item {
+    float: left;
+    width: 125px;
+    padding-bottom: 10px;
+    color: #666;
+}
+.search-row-item a {
+    color: #666;
+    text-decoration: none;
+    background-color: transparent;
+}
+.search-row-item label {
+    cursor: pointer;
+        vertical-align :top;
+}
+.search-row-item input {
+    margin-right: 0px;
+    margin-top: 4px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    width: 15px;
+    height: 15px;
+}
+
+/*公共的item显示样式 e*/
+
+
+
+/*第二行 星级 S*/
+.search-row {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0 10px;
+    line-height: 22px;
+}
+.search-row-spread {
+    height: 32px;
+    overflow: hidden;
+}
+/*第二行 星级 E*/
+
+
+.search-row-change>span {
+    padding-right: 2px;
+}
+.search-row-change:after {
+    content: "";
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 16px;
+    width: 0;
+    border: none;
+    border-top: 4px solid #666;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+ /*第五行  价格  S */
+.custom-price-wrapper .custom-text {
+    margin-right: 10px;
+}
+.custom-price-wrapper input {
+    width: 40px;
+    padding: 1px 0px;
+  }
+.custom-price-wrapper em {
+    margin: 0 5px;
+  }
+  .custom-price-wrapper .price-confirm {
+    margin-left: -2px;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+  /*第五行  价格 E */
+
+
+/*中间的底部   S*/
+.search-crumb {
+    padding: 20px 10px;
+    line-height: 22px;
+}
+.search-total-text {
+    font-size: 16px;
+    padding: 10px;
+}
+.search-total-text .search-total {
+    color: #ff8634;
+}
+/*中间的底部   E*/
+/*中间的列表 E*/
+
+
+/*酒店列表  S*/
+
+.g-content {
+    margin-top: 20px;
+    height: 100%;
+}
+.content-view {
+    float: left;
+    width: 910px;
+
+}
+.main-view {
+    padding: 0 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 50px;
+
+    position: relative;
+
+    /*=============================================*/
+    
+
+}
+.order-bar-placeholder {
+    height: 53px;
+}
+.order-bar {
+    padding: 16px 0;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 4px 4px 0 0;
+}
+.order-bar a.active {
+    color: #06c1ae;
+}
+.order-bar a {
+    font-size: 14px;
+    margin-right: 30px;
+    color: #666;
+}
+.order-bar a:hover {
+    color: #06c1ae;
+}
+.order-arrow {
+    display: inline-block;
+    width: 7px;
+    height: 11px;
+    background :url(../images/mtjd/jiant.jpg);
+}
+
+
+
+    /*第一个酒店介绍*/
+    .poi-results a {
+    color: #13D1BE;
+    text-decoration: none;
+    background-color: transparent;
+    }
+
+.poi-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+
+/*========================================*/
+
+    height: 124px;
+}
+.poi-item:hover {
+    background-color: #f3fcfd;
+}
+.poi-item:hover .poi-title-wrapper {
+    color: #f60;
+}
+/*图片*/
+.picture-wrapper {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.info-wrapper {
+    margin-left: 220px;
+}
+/*标题*/
+.poi-title-wrapper {
+     font-size: 18px;
+    margin-bottom: 10px;
+    color: #06c1ae;
+}
+.location-icon {
+    display: inline-block;
+    width: 17px;
+    height: 20px;
+    line-height: 18px;
+    vertical-align: middle;
+    background: url(../images/mtjd/shuidi.png) no-repeat;
+    background-size: 100%;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: -5px;
+    font-style: normal;
+}
+.poi-item h3 a:hover .location-icon {
+      display: inline-block;
+    width: 17px;
+    height: 20px;
+    line-height: 18px;
+    vertical-align: middle;
+    background: url(../images/mtjd/shuidi2.png) no-repeat;
+    background-size: 100%;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+  .info-wrapper .poi-title-wrapper a{
+     
+  }
+  .info-wrapper .poi-title-wrapper a:hover {
+    color: #f60;
+    text-decoration: underline;
+  }
+
+  /*标题下面那一部分 S*/
+.colum-wrapper {
+    width: 648px;
+    height: 90px;
+
+}
+.column-wrapper {
+    border-right: 1px solid #e5e5e5;
+    height: 100%;
+}
+ .colum-wrapper .colum-1 {
+    width: 336px;
+    height: 90px;
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid #e5e5e5;
+    font-size: 12px;
+ } 
+/*最左边的上面*/
+.poi-addres {
+    height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+/*中间的图片和文字*/
+.service-icons {
+    padding-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 20px;
+}
+.service-icons div {
+    display: inline-block;
+}
+.service-icons img {
+        border: none;
+    width: 20px;
+    height: 20px;
+}
+.service-icons div span {
+    vertical-align: top;
+    color: #999;
+    padding-right: 15px;
+    line-height: 20px;
+    display: inline-block;
+    height: 20px;
+}
+/*下面那个   订   的图像*/
+ .poi-tag-row {
+    height: 20px;
+    overflow: hidden;
+ }
+
+ .poi-tag {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+    border: 1px solid #50b6f5;
+    border-radius: 2px;
+    color: #50b6f5;
+    padding: 1px 2px;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+       border-color: #f5716e;
+    color: #f5716e;
+ }
+  /*第二栏  column-2*/
+ .colum-2 {
+    /*width: 150px;
+    height: 90px;*/
+    float: left;
+    text-align: center;
+        max-width: 150px;
+    min-width: 150px;
+     border-right: 1px solid #e5e5e5;
+    height: 100%;
+ }
+ .poi-grade {
+    margin-bottom: 5px;
+    color: #f90;
+    font-size: 23px;
+ }
+  .poi-grade .small-size {
+    font-size: 14px;
+ }
+ .poi-grade .poi-grade-desc {
+    margin-left: 5px;
+ }
+.poi-grade-number {
+    color: #999;
+    font-size: 14px;
+}
+
+.poi-grade-commet {
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+
+
+  .colum-3 {
+    width: 150px;
+    height: 90px;
+    float: left;
+    text-align: center;
+ }
+.poi-price {
+    margin-top: 5px;
+    color: #f60;
+} 
+.poi-price em {
+    font-size: 30px;
+    font-style: normal;
+}
+#show-detail {
+    margin-top: 10px;
+    background-color: #f90;
+    border-color: #f90;
+        font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 2.15;
+    padding: 0 18px;
+    letter-spacing: .1em;
+    text-align: center;
+    border-radius: 2.15em;
+}
+
+/*标题下面那一部分E*/
+
+/*酒店列表  E*/
+
+ /*下面的圆圈   s */
+.list-page-view {
+    margin: 20px 0px;
+}
+.paginator-wrapper {
+        margin: 40px 0;
+    text-align: center;
+    clear: both;
+}
+.paginator {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 12px;
+    list-style: none;
+     margin-left: -295px;
+}
+ .paginator li {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 20px;
+    display: inline-block;
+    border:1px solid  #999;
+ }
+ .paginator .active {
+    border-color: #06c1ae;
+    background-color: #06c1ae;
+     color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+ }
+ .paginator li a {
+    color: #999;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+ }
+ .paginator li:hover {
+    border-color: #06c1ae;
+ }
+ .paginator li:hover a{
+    text-decoration: none;
+    
+    color: #13d1be;
+}
+.ellipsis {
+    border: none;
+    margin-right: 13px;
+
+        border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+        font-size: 16px;
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    min-width: 10px;
+    letter-spacing: 0.2em;
+
+ }
+ /*下面的圆圈   e*/
+
+/*右边 S*/
+
+.right {
+    width: 270px;
+    height: 402px;
+    float: right;
+    border-left: 1px solid #e5e5e5;
+    background-color: red;
+     background: url(../images/mtjd/map.png) no-repeat ;
+    -webkit-background-size: contain;
+    background-size: contain; 
+/*    overflow: hidden;*/
+   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ;
+     /*position: fixed;*/
+}
+.right .cc {
+      
+    /*background-attachment: fixed;*/
+     
+}
+/*右边 E */

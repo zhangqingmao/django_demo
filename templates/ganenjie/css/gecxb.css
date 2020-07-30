@@ -1,0 +1,113 @@
+/*重新定义index的页面字体颜色 字号*/
+body {
+	color: #333;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+}
+/*定义超链接的颜色*/
+a {
+	color: #333;
+	text-decoration: none;
+}
+/*重新定义鼠标放上去的显示的颜色*/
+a:hover {
+	color: #0047ff;
+}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,tr,td {
+	padding:0px;
+	margin:0px;
+}
+
+/*双清 清除浮动*/
+.clearfix:before,.clearfix:after {
+ 	content:".";
+ 	height:0px;
+ 	line-height: 0px;
+ 	display: block;
+ 	visibility: hidden;
+ 	clear:both;
+}
+/*双清兼容IE7*/
+.clearfix {
+	*zoom: 1;
+}
+.container {
+	width: 1340px;
+	margin: 0px auto;
+}
+
+/*头部标签图 S*/
+.header {
+	width: 1300px;
+	height: 100%;
+	background-color:#fff;
+	padding: 20px;
+	margin-bottom:20px;
+}
+.header .headerimg {
+	float:left;
+
+}
+.header .headerimg img {
+	width: 130px;
+	vertical-align: middle;
+}
+.header p {
+	float:right;
+	vertical-align: middle;
+	height: 20px;
+	background-color: #fff;
+	color: #ccc;
+	font-size: 37px;
+    font-family: '华文行楷';
+}
+/*头部标签图 E*/
+
+/*中间正文 S*/
+.new {
+	overflow: hidden;
+	width: 1340px;
+	height: 713px;
+	background:url(../images/bj1.jpg) no-repeat center center;
+}
+
+.new .text {
+	width: 598px;
+    height: 400px;
+	background-color:transparent;
+	margin-top: 123px;
+	background:url(../images/f986e0e75ae7159eaf951446af8f4c26.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+.new .text h3 {
+	width: 380px;
+	display: inline-block;
+	margin-top: 23px;
+}
+.new .text span {
+	display: inline-block;
+	line-height: 1.5em;
+	margin: 84px 10px 15px;
+}
+/*中间正文 E*/
+
+
+
+/*最后的超链接 S */
+.footer {
+	width: 1340px;
+	height:100%;
+	background-color: #fff;
+	margin:30px auto 0px;
+}
+.footer .one {
+	margin:0 auto;
+	width: 35%;
+	text-align: center;
+	margin-bottom:20px;
+}
+.footer p {
+	text-align: center;
+}
+/*最后的超链接 E 

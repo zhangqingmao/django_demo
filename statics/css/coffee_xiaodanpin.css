@@ -1,0 +1,58 @@
+/* 单品正文 S */
+/*  蓝山咖啡  */
+.content .row {
+	height: 600px;
+	background-image: url(../images/coffee/u=644420093,308595615&fm=27&gp=0.jpg.png);
+}
+.content .row .coffee {
+	font-size: 50px;
+	color :#4e80a8;
+	margin-left: 198px;
+    padding-top: 15px;
+    height: 60px;
+	font-family: 华文行楷;
+}
+.content .row ul {
+	display: inline-block;
+	font-size: 14px;
+	letter-spacing: 2.5px;
+	height: 300px;
+	width: 290px;
+	margin-top: 60px;
+	color: #452828;
+}
+.content .row li {
+	display: inline-block;
+	line-height: 2.5;
+}
+.content .row span {
+	display: inline-block;
+	color :#fff;
+	font-size: 22px;
+	float: right;
+    margin-right: 120px;
+    padding-top: 340px;;
+}
+.content span p {
+	display: inline-block;
+	color: #ffb7a2;
+	font-size: 35px;
+}
+.content .row .shop	{
+	width: 145px;
+	height: 46px;
+	background-color: #8f533e;
+	text-align: center;
+	line-height: 46px;
+	border-radius: 10px;
+	display: inline-block;
+	border: 2px solid #8f533e;
+    float: right;
+    margin-top: 415px;
+    margin-right: -168px;
+}
+.content .shop a {
+	font-size: 22px;
+	color: #fff;
+}
+/* 单品正文 E */

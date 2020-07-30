@@ -1,0 +1,65 @@
+/* 单品正文 S */
+/*皇家特级蓝山咖啡*/
+.content .row {
+	height: 600px;
+	background-image: url(../images/coffee/100h070000002a1s16B31.jpg);
+	background-position: middle bottom;
+}
+.content .row .coffee {
+	font-size: 50px;
+	color :#ffe5d8;
+	margin-left: 722px;
+    padding-top: 15px;
+    height: 60px;
+	font-family: 华文行楷;
+}
+.content .row ul {
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 2.5px;
+	height: 300px;
+	width: 605px;
+	margin-top: 75px;
+	color: #fff;
+	text-indent: 2em;
+	float: right;
+}
+.content .row li {
+	display: inline-block;
+	line-height: 2.5;
+}
+.content .row li:first-child {
+	width: 605px;
+    margin-left: -33px;
+}
+.content .row span {
+	display: inline-block;
+	color :#fff;
+	font-size: 33px;
+	float: left;
+    margin-left: 95px;
+    padding-top: 345px;;
+}
+.content span p {
+	display: inline-block;
+	color: #32eedb;
+	font-size: 46px;
+}
+.content .row .shop	{
+	width: 145px;
+	height: 46px;
+	background-color: #8f533e;
+	text-align: center;
+	line-height: 46px;
+	border-radius: 10px;
+	display: inline-block;
+	border: 2px solid #8f533e;
+    float: left;
+    margin-top: 438px;
+    margin-left: -205px;
+}
+.content .shop a {
+	font-size: 22px;
+	color: #fff;
+}
+/* 单品正文 E */

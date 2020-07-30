@@ -1,0 +1,387 @@
+/*页面默认字体、背景*/
+body {
+	background-color: #f8f8f8;
+	font-family: "-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue","MIcrosoft YaHei",sans-serif!important;
+}
+/*设置超链接默认样式*/
+a {
+	color:#666;
+	text-decoration: none;
+}
+a:hover {
+	color:#31BBAC;
+}
+/*===========================*/
+
+/*最外层盒子*/
+.warp {
+	text-align: center;
+}
+/*居中盒子*/
+.container {
+	width: 1190px;
+	height:100%;
+	margin:0px auto;
+}
+
+/*双清 清除浮动*/
+.clearfix:before,.clearfix:after {
+ 	content:".";
+ 	height:0px;
+ 	line-height: 0px;
+ 	display: block;
+ 	visibility: hidden;
+ 	clear:both;
+}
+/*双清兼容IE7*/
+.clearfix {
+	*zoom: 1;
+}
+
+/*布局常用颜色*/
+.color-red {
+	background-color: red;
+	height: 100%;
+}
+.color-pink {
+	background-color: pink;
+	height: 100%;
+}
+.color-green {
+	background-color:#0f0;
+	height: 100%;
+}
+.color-skyblue {
+	background-color: skyblue;
+	height: 100%;
+}
+.color-yellow {
+	background-color: yellow;
+	height: 100%;
+}
+
+/*网页布局开始*/
+/*美团首页头部 header 部分 S*/
+.header {
+	font-size:12px;
+	margin-bottom:35px;
+}
+.header .nav {
+	color:#999;
+	height:40px;
+}
+/*头部导航 左*/
+.header .nav .nleft{
+	float:left;
+	width: 50%;
+	padding:12px 0px;
+}
+.nav .nleft .nposition {
+	background-color: #f4f4f4;
+	border:1px solid #e5e5e5;
+	border-radius:2px;
+	color:#666;
+	margin:0 4px;
+	padding:0 2px;
+}
+.nav .nleft a ,.nav .nright a{
+	color:#999;
+	margin-left:3px;
+}
+.nav .nleft a:hover,.nav .nright a:hover{
+	color:#31bbac;
+}
+.nav .nleft .nlogin {
+	margin-left:23px;
+	margin-right:5px;
+	color:#31bbac;
+}
+
+/*头部导航 右*/
+.header .nright {
+	height:100px;
+	float:right;
+}
+.nright>ul>li{
+	float:left;
+	padding:11px 14px;
+	position: relative;
+}
+.nright>ul>li:hover {
+	background-color: #fff;
+	color:#31bbac;
+	border:1px solid #E5E5E5;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+.nright>ul>li:nth-child(2):hover{
+	background-color: #f8f8f8;
+	border:1px solid #f8f8f8;
+}
+
+.nright .nmy ul ,.nright .ntrade ul{
+	width:79px;
+	background-color: #fff;
+	position: absolute;
+	top:37px;
+	left:-1px;
+	visibility: hidden;
+	border:1px solid #E5E5E5;
+	border-top:1px solid #fff;
+	z-index: 200;
+}
+.nright .nmy:hover ul,.nright .ntrade:hover ul,.nright .ntrade:hover .nline{
+	visibility: visible;
+}
+.nright .nmy li ,.nright .ntrade li{
+	height: 35px;
+	text-align: center;
+	line-height:35px;
+}
+.nright .ntrade ul {
+	z-index: 200;
+	width:110px;
+	top:38px;
+	left:-32px;
+}
+.nright .ntrade .nline {
+	width:30px;
+	height:1px;
+	background-color: #E5E5E5;
+	position: absolute;
+	bottom:0px;
+	left:-31px;
+	visibility: hidden;
+}
+.nright .navmenu {
+	width:1105px;
+	height: 160px;
+	background-color: #fff;
+	position:absolute;
+	top:39px;
+	right:-1px;
+	border:1px solid #E5E5E5;
+	border-top-left-radius: 4px;
+	padding: 30px 36px 36px 47px; 
+	border-top:1px solid #fff;
+	visibility: hidden;
+	z-index:200;
+}
+.nright .wzdh:hover .navmenu {
+	visibility: visible;
+}
+.navmenu dl {
+	height:150px;
+	text-align: center;
+	float:left;
+	margin-right:81px;
+}
+.navmenu dt{
+	width:100%;
+	color:#31bbac;
+	font-size:14px;
+	margin-bottom: 23px;
+}
+.navmenu dd {
+	line-height:2.3em;
+	float:left;
+}
+.navmenu .hotel {
+	width: 25%;
+	margin-right:20px;
+}
+.navmenu .hotel dd{
+	width:30%;
+}
+
+.navmenu .cate {
+	width:16%;
+}
+.navmenu .cate dd {
+	width:50%;
+}
+.navmenu .app {
+	width:34%;
+	height:300px;
+	margin-right:0px;
+	float:right;
+}
+.navmenu .app img{
+	width: 60px;
+	height: 60px;
+	margin:0 5px;
+}
+.nright .wzdh .nline_{
+	width:1113px;
+	height: 1px;
+	background-color: #E5E5E5;
+	position: absolute;
+	right:76px;
+	bottom:-1px;
+	visibility: hidden;
+}
+.nright .wzdh:hover .nline_ {
+	visibility: visible;
+}
+/*美团头部head_*/
+.header .head_ {
+	height:180px;
+	background: #fff;
+    box-shadow: 0 2px 27px 0 rgba(0,0,0,.1)
+}
+/*头部logo*/
+.header .head_ .logo {
+	height: 54px;
+	padding: 0px 60px 40px 0px;
+	margin-top:-28px;
+	float:left;
+	min-width: 220px;
+}
+.head_ .logo img {
+	width: 126px;
+	height: 46px;
+}
+/*搜索框*/
+.head_ .search {
+	float:left;
+	margin-top:-30px;
+}
+.search .search-block {
+	width: 550px;
+	height: 40px;
+	border:1px solid #13d1be;
+	border-radius: 4px;
+	position: relative;
+}
+
+.search .search-block input {
+	border:none;
+	line-height: 100%;
+	display: inline-block;
+	padding:0px 10px;
+	font-size: 15px;
+	height:100%;
+	width: 80%;
+	outline:none
+}
+.search .search-block button{
+	width:16%;
+	line-height: 100%;
+	height:100%;
+	background: #13d1be url(../images/index/search.png) no-repeat center center;
+	border: none;
+	float:right;
+	cursor:pointer;
+	border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    outline:none
+}
+.search-block dl {
+	width: 80%;
+	position: absolute;
+	padding:10px 10px 20px;
+	background-color: #fff;
+	display: none;
+	top:40px;
+}
+.search-block dt {
+	font-weight: bold;
+	margin-bottom:12px;
+	color:#999;
+}
+.search-block dd {
+	float:left;
+	margin-right:10px;
+	color:#666;
+}
+.search .search-word {
+	widows: 100%;
+	padding-top:10px;
+}
+.search .search-word a {
+	margin-left:10px;
+	color:#999;
+}
+.search-word a:hover {
+	color:#31bbac;
+}
+
+/*美团首页头部 header 部分 E*/
+
+
+/*================================*/
+
+
+/*底部开始 footer 部分 S*/
+.footer {
+	margin-top:40px;
+}
+.footer>.container{
+	padding:35px 45px;
+	border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+.footer .fone,.footer .ftwo,.footer .fthree,.footer .ffour,.footer .ffive {
+	float: left;
+	width: 20%;
+}
+.footer dl {
+	padding-bottom:20px;
+	line-height: 1.3em;
+}
+.footer dt {
+	font-size:14px;
+	font-weight: 500;
+	line-height: 2em;
+}
+.footer dl dd a {
+	font-size:13px;
+}
+.footer .ffive .ftitle{
+	font-size:20px;
+	color:#06c1ae;
+	margin-top:80px;
+	font-weight: 500;
+}
+.footer .ffive .fphone {
+	font-size:30px;
+	color:#333;
+	font-weight:100;
+}
+.footer .ffive .ftime {
+	font-size: 14px;
+    color: #333;
+    letter-spacing: .82px;
+    font-weight: 100;
+    position: relative;
+    left: -8px;
+}
+/*底部开始 footer 部分 E*/
+
+/*底部版权开始 footer 部分 S*/
+.footer-copy{
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+	color:#999;
+	font-size: 12px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom:50px;
+	margin-bottom: 30px;
+	line-height: 1.6em;
+}
+.footer-copy a{
+	color:#999;
+}
+.footer-copy a:hover {
+	color:#31BBAC;
+}
+.footer-copy .fcopy-left {
+	float:left;
+}
+.footer-copy .fcopy-right {
+	float:right;
+	text-align: right;
+} 
+/*底部版权开始 footer 部分 E*/

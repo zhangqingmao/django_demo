@@ -1,0 +1,71 @@
+
+body {
+	background: url(../images/a12.jpg) ;
+}
+
+a {
+	color:#666;
+	text-decoration: none;
+}
+a:hover {
+	color:#31BBAC;
+}
+/*===========================*/
+
+.box {
+	margin:0 auto;
+	width: 1500px;
+	height: 500px;
+	background: url(../images/123456.gif) no-repeat center center;
+	background-size:100%;
+}
+.box1 {
+	width: 100%;
+}
+.one,.two,.three{
+	width: 400px;
+	height: 500px;
+	float:left;
+	margin-top:-115px;
+	text-align: center;
+}
+.one {
+	background: url(../images/a5.png) no-repeat center center;
+	background-size:100%;
+	margin-left:190px;
+}
+.two {
+	background: url(../images/a6.png) no-repeat center center;
+	background-size:100%;
+	margin-top:-150px;
+}
+.three {
+	background: url(../images/a7.png) no-repeat center center;
+	background-size:100%;
+	margin-top:-230px;
+}
+.box1 p{
+	visibility: hidden;
+	width:300px;
+	margin:0 auto;
+}
+.box1 .one:hover p {
+	visibility: visible;
+}
+.box1 .two:hover p {
+	visibility: visible;
+}
+.box1 .three:hover p {
+	visibility: visible;
+}
+.news {
+	margin: 0 auto;
+	width: 1200px;
+	font-size:25px;
+	font-family: "华文新魏";
+	color:#ff6700;
+}
+.news p {
+	margin-top:4px;
+	margin-bottom:10px;
+}

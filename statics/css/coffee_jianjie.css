@@ -1,0 +1,182 @@
+body {
+	background-color: #eee;
+}
+/* 头部 header S */
+.header .head_ {
+	height: 135px;
+}
+/* 头部 header E */
+
+ /* 咖啡之翼的简介头部 S */
+ .jianjie {
+ 	margin-top: -34px;
+ }
+ .jianjie .logo {
+ 	background-image: url(../images/coffee/u=1646389431,269088517&fm=27&gp=0.jpg);
+ 	height: 278px;
+ }
+ .jianjie .logo .bgc {
+ 	float: left;
+ 	background-color: rgba(0,0,0,0.28);
+ 	height: 278px;
+ 	width: 100%;
+ 	text-align: center;
+ 	position: relative;
+ }
+ .jianjie .bgc h1 {
+ 	color: #fff;
+ 	width: 1190px;
+ 	font-weight: 300;
+ 	position: absolute;
+ 	top: 50%;
+ 	margin-top: -50px;
+ 	text-align: center;
+ 	font-size: 40px;
+ 	line-height: 1.1;
+ }
+ .jianjie .bgc .more {
+	font-size: 13px;
+	color : #13d1be;
+	margin-bottom: 1.5em;
+	letter-spacing: 3px;
+ }
+ /* 咖啡之翼的简介头部 E */
+
+ /*咖啡之翼  content  S  */
+ .content {
+ 	height: 1800px;
+ 	width: 100%;
+ 	margin: 80px 0px;
+ }
+ .content .container {
+ 	padding : 0px 15px;
+ }
+ .content .container .row {
+ 	padding: 0px 15px;
+ 	margin: -15px;
+ 	margin-left: -20px;
+ }
+ .content .row .buju {
+ 	margin-left: 190px;
+ 	width: 750px;
+ 	padding: 0px 15px;
+ }
+ .content .buju .coffee {
+ 	margin-left: 25%;
+ 	height: 46px;
+ }
+ .content .row h2 {
+ 	color: #b89f7a;
+	font-weight: 700;
+    font-size: 0.8125em;
+    letter-spacing: 2px;
+    line-height: 1.62;
+    margin-bottom: 26px;
+    padding: 0px 15px;
+ }
+ .content .row .cjianjie {
+ 	position: relative;
+ 	height: 164px;
+ 	margin-bottom: 60px;
+ }
+ .content .history {
+ 	display: inline-block;
+ 	position: absolute;
+ 	width: 164px;
+ 	height: 164px;
+ }
+ .content .history .chistory {
+ 	display: table-cell;
+ 	width: 517.2px;
+ 	height: 160px;
+ 	position: absolute;
+ 	left: 186px;
+ 	top: 0px;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	margin-top: 10px;
+ }
+ .content .history .cimg {
+ 	display: inline-block;
+ 	padding: 0px 15px 0px 0px;
+ 	width: 164px;
+ 	height: 164px;
+ }
+ .content .history img {
+ 	width: 164px;
+ 	height: 164px;
+ 	border-radius: 82px;
+ 	display: inline-block;
+ }
+ .content .chistory a {
+ 	color: #707070;
+ }
+ .content .chistory h3{
+	font-weight: 300;
+	font-size: 28.8px;
+	margin: 5px 0px 28.8px 0px;
+ }
+ .content .chistory span {
+ 	font-size: 16px;
+ 	line-height: 1.8;
+ }
+ .content .chistory h3:hover ,.content .chistory span:hover{
+ 	text-decoration: underline;
+ }
+ .content .bean span:hover {
+ 	text-decoration: none;
+ }
+ .content .bean a:hover {
+ 	text-decoration: underline;
+ }
+ /*咖啡之翼  content  E  */
+
+ /* page-footer  S */
+.page-footer {
+	background-color: #555;
+	height: 185px;
+	padding-bottom: 80px;
+	position: relative;
+}
+.page-footer .item {
+	display: inline-block;
+	width: 278px;
+	text-align: left;
+	margin-left: 15px;
+	height: 280px;
+}
+.page-footer .item-title a {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.8;
+}
+.page-footer .item a {
+	display: inline-block;
+	margin-bottom: 7px;
+	color: #fff;
+}
+.page-footer .item-content a {
+	font-size: 16px;
+	color: rgba(255,255,255,0.8);
+	font-weight: 300;
+	line-height: 1.5em;
+}
+.page-footer .item-content a:hover {
+	text-decoration: underline;
+}
+.page-footer .item .item-content {
+	display: inline-block;
+}
+.page-footer .last-child {
+	position: absolute;
+	top: 0px;
+	right: 160px;
+}
+ /* page-footer  E*/
+
+ /* 底部版权开始 footer 部分 S */
+.footer {
+	background-color: #555;
+	margin-top:0px;
+ }
+ /* 底部版权开始 footer 部分 E */

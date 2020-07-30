@@ -1,0 +1,172 @@
+/**common.css用于所有页面公用的一些css样式*/
+
+/*设置body的样式*/
+body {
+	color: #535353;
+	/*简写*/
+	font:12px/1.5em "微软雅黑";
+	background-color: #fff;
+}
+
+/*设置超链接默认（蓝色）的颜色*/
+a {
+	color: #535353;
+}
+
+/*当鼠标放到超链接上的时候（:hover）设置一个样式*/
+a:hover {
+	color: #00a0e9;
+}
+/*______________*/
+/*上边的美团img*/
+.dingbu {
+	width: 1000px;
+	margin:0 auto;
+}
+.dingbu img {
+	width:90px;
+	background-color: #f8f8f8;
+}
+/*中间大盒子*/
+.zhongjian {
+	width: 1226px;
+	height: 370px;
+	margin: 0px auto;
+}
+/*左边图片*/
+.zhongjian .left img {
+	width: 480px;
+	margin-left:122px;
+}
+/*右边的输入框*/
+.box{
+	width: 270px;
+	float: right;
+	margin-top: -330px;
+	margin-right: 218px;
+}
+/*第一节文字*/
+.box span {
+	margin-bottom:20px;
+}
+.box .diyi {
+	float: left;
+}
+.box .dier {
+	float: right;
+}
+.box a:hover{
+	text-decoration: underline;
+	color: #333;
+}
+/*输入框*/
+.box .input1 {
+	height: 34px;
+	width: 264px;
+}
+.box .input2 {
+	height: 34px;
+	width: 264px;
+}
+.box .anniu .input1{
+	width: 18px;
+	margin-right: 90px;
+}
+.box .anniu .input2{
+	width: 18px;
+	margin-right: 90px;
+}
+/*按钮忘记密码*/
+.anbox{
+	width: 100%;
+}
+.anbox .zd {
+	float:left;
+}
+.anbox .wj {
+	float:right;
+}
+.anbox .wj a:hover{
+	text-decoration: underline;
+	color: #2bb8aa;
+}
+.anbox .wj a{
+	color: #2bb8aa;
+}
+.anbox .zd  input{
+	width: 15px;
+	height: 15px;
+	color: #fff;
+}
+/*登录按钮*/
+.box .denglu input{
+	width: 270px;
+	height: 38px;
+	font-size: 17px;
+	color: #fff;
+	background-color:#2DBBAD;
+	margin-top: 20px;
+	text-align: center;
+	border: none;
+}
+.box .zh h6 {
+	margin-top: 4px;
+}
+.box a {
+	color: #2bb8aa;
+	text-decoration: none;
+}
+.box .xian {
+	border-top:1px solid #757575;
+	color:#757575;
+}
+.box .xian h6 {
+	width: 32%;
+	margin:-10px auto -5px;
+	background-color: #fff;
+	padding: 0px 10px;
+}
+.box .qqtp img {
+	position: relative;
+	top: 15px;
+	right: -97px;
+}
+
+
+
+.box2 {
+	width: 1000px;
+	height: 88px;
+	
+	margin: 0px auto;
+}
+.box2 .wenzi2 {
+	width: 1000px;
+	height: 50px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	line-height: 50px;
+}
+
+}
+.box2 .wenzi2 a {
+	display: inline-block;
+	width: 800px;
+	height: 14px;
+	float: left;
+}
+.box2 .wenzi2 a {
+	text-decoration: none;
+}
+.box2 .wenzi2 .a1 {
+	display: inline-block;
+	float: right;
+}
+.box2 .wenzi2 img {
+	margin-top: 12px;
+}
+
+.box2 .a2 {
+	text-decoration: none;
+
+}

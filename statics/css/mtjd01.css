@@ -1,0 +1,716 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	color:#666;
+}
+img {
+    border-style: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.container {
+    width: 1190px;
+    height:100%;
+    margin:0px auto;
+}
+/*lolo*/
+#head {
+    height: 122px;
+}
+.logo span{
+    position: relative;
+    bottom: -4px;
+    margin-left: 10px;
+    color: #222;
+    font-size: 17px;
+}
+.logo .head-block {
+        background: #fff;
+    position: relative;
+    bottom: -4px;
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+    margin-left: 14px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+.head_ .right {
+    float: right;
+    width: 160px;
+    height: 50px;
+    border-left: 1px solid #fff;
+    cursor: pointer;
+    position: relative;
+    bottom: 26px;
+}
+
+
+/*===================================================*/
+
+
+/*酒店预览   S*/
+/*顶部top*/ 
+.come .nav {
+    font-size: 12px;
+    color: #666;
+    height: 52px;
+    line-height: 52px;
+    font-weight: 700;
+}
+.come a {
+    color: #13D1BE;
+    text-decoration: none;
+    background-color: transparent;
+}
+.come .nav a {
+    color: #333;
+}
+.come .nav span {
+    margin: 0 5px;
+    color: #777;
+}
+.come .header {
+    height: 444px;
+}
+/*上面的大标题*/
+.come .top {
+    height: 54px;
+    position: relative;
+}
+.come .top span {
+    font-weight: 700;
+
+    color: #333; 
+    font-size: 26px;
+}
+/*下面的小字*/
+.come .top .buttom {
+    height: 17px;
+    width: 100%;
+    margin-top:10px;
+    font-size: 12px;
+}
+.come .top .buttom span {
+    font-size: 12px;
+}
+.come .buttom .icon-img {
+    position: relative;
+    left: 2px;
+      margin: 0 4px -2px;
+    width: 8px;
+    height: 12px;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-image:url(../images/mtjd/01.png);
+}
+  
+/*右边的价格*/
+.come .top .right {
+    width: 125px;
+    height: 46px;
+    float: right;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    color: #f60;
+}
+.come .right span {
+    font-size: 40px;
+    color: #f60;
+}
+
+
+/*下面的大的*/
+
+/*左边的图片*/
+/*========================================*/
+.header .left-img {
+    float: left;
+    width: 63.2%;
+    height: 400px;
+    margin-top:20px;
+}
+.left-img .maximg {
+    background-image: url(../images/mtjd/maximg1.jpg);
+    position: relative;
+    width: 100%;
+    height: 270px;
+    border-radius: 4px;
+    transition: background-image .2s;
+    background-size: cover;
+    background-color: rgba(0,0,0,.05);
+    background-position: 50% 50%;
+} 
+.maximg .btnbox {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: rgba(0,0,0,.6);
+    font-weight: lighter;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.maximg .btnbox span {
+    cursor: pointer;
+    color:#aaa;
+    margin-left:10px;
+}
+.maximg .btnbox span:first-child{
+    margin-left:12px;
+    color:#fff;
+    font-size:16px;
+}
+.left-img .listimg {
+    position: relative;
+    white-space: nowrap;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.left-img .listimg img {
+    width: 123px;
+    height: 100px;
+    border-radius: 6px;
+}
+.header .right-border {
+    width: 425.63px;
+    height: 382px;
+    float: right;
+    border :1px solid #e5e5e5;
+    border-radius: 4px;
+    background: #fff;
+    margin-top:20px;
+}
+.header .right-border .other-line1 {
+    height: 115px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header .other-line1 .other-line1-score {
+    border: 2px dotted #f90;
+    border-radius: 50%;
+    height: 87px;
+    width: 87px;
+    float: left;
+    line-height: 87px;
+    text-align: center;
+    color: #f90;
+    margin: 12px 0 0;
+}
+.header .other-line1-score .fs34 {
+    font-weight: 500;
+    padding-right: 2px;
+    font-size: 34px;
+}
+.other-line1-score-level {
+    margin-left: 11px;
+    float: left;
+    line-height: 115px;
+    color: #f90;
+    font-size: 16px;
+    display: inline-block;
+}
+.header .right-border .other-line1 a {
+        position: relative;
+    float: right;
+    line-height: 115px;
+    bottom: 0;
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.header .right-border .mb10 {
+    font-size: 14px;
+    color: #666;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.header .right-border .ellipsis1 {
+    margin-bottom: 10px;
+    
+    font-size: 14px;
+}
+.header .right-border .mb10-1 {
+    margin-bottom: 10px;
+}
+.header .right-border .other-detail {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 53px;
+}
+.header .other-detail .service-icon {
+    float: left;
+    width: 60px;
+    height: 46px;
+    margin: 5px 10px 0;
+    text-align: center;
+}
+.header .other-detail .fc9 {
+    color: #999;
+    font-size: 12px;
+}
+.header .right-border .small-map {
+    margin-top: 20px;
+    width: 100%;
+  
+}
+ .header .right-border .relative {
+    height: 117px;  
+    cursor: pointer;
+    margin-top:20px;
+ }
+/*酒店预览   E*/
+/*========================================================*/
+/*中间的房间信息     S*/
+
+.deal-box {
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 4px;
+}
+/*top S */
+.nav-tabs li {
+    float: left;
+    text-align: center;
+    margin: 0 25px;
+    }
+    .nav-tabs li a {
+    position: relative;
+    display: block;
+    color: #666;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 62px;
+}
+.deal-box .nav-tabs {
+    height: 63px;
+    box-shadow: none;
+    transition: none;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 20px;
+    background: #fff;
+}
+.nav-tabs li:first-child {
+    margin-left: 0;
+}
+.nav-tabs li.current a {
+    color: #13d1be;
+    text-decoration: none;
+    border-bottom: 2px solid #13d1be;
+}
+
+/*top E */
+.deal-list {
+    padding-top: 15px;
+    border-top: 0;
+}
+.deal-list .filter {
+        vertical-align: middle;
+    display: inline-block;
+    height: 55px;
+}
+.deal-list .filter .checkin {
+        padding: 0 6px 0 20px;
+        position: relative;
+    line-height: 35px;
+    padding: 0 20px;
+    display: inline-block;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 235px; 
+    /*margin-bottom: 1px solid #999; */ 
+}
+   .two {
+        display: inline-block;
+    border: 1px solid #e5e5e5;
+    height: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0 10px;
+   }
+   .input-title {
+    color:#999;
+    font-size: 12px;
+   }
+   .input-text {
+        font-size: 14px;
+    color: #333;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px
+    width: 10px;
+    border: none;
+    outline: none;
+   }
+.two-three {
+    display: inline-block;
+    padding: 0px 6px 0px 7px;
+}
+ .two-three .icon-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/mtjd/date.jpg);
+    background-size: 100% 100%;
+}
+.date-txt {
+    color: #999;
+    font-size: 12px;
+    margin: 0 20px 0 20px;
+}
+.checkin .top-btn {
+    float: right;
+    margin-top: 2px;
+    line-height: 35px;
+    border: none;
+    padding: 0 29px;
+    background-color: #13d1be;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-align: center;
+    border-radius: 2.15em;
+    -webkit-font-smoothing: antialiased;
+}
+/*酒店介绍   S*/
+.deal-section {
+    margin-top: 20px;
+    margin: 0 20px;
+}
+.deal-table {
+        width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.deal-section .deal-item {
+    padding-top: 30px;
+    border-top: 1px solid #e5e5e5;
+    /*==================================================*/
+    position: relative;
+}
+.deal-section .deal-item .deal-img {  
+    float: left;
+}
+.deal-section .deal-img .radio-2 {
+        border-radius: 2px;
+}
+.pull-right {
+    float: right;
+}
+.pull-right .price-color {
+    color: #f60;
+}
+.pull-right .price-color .price-number {
+    font-size: 30px;
+    padding-left: 2px;
+    font-style: normal;
+}
+.pull-right .see-more-good {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 12px;
+}
+.pull-right .see-more-good a {
+    color: #13D1BE;
+    text-decoration: none;
+    background-color: transparent;
+}
+.icon-triangle-down:after, .icon-triangle-up:after {
+    content: "";
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transition: all .2s;
+}
+.icon-triangle-up:after {
+    border-bottom: 8px solid
+    }
+  /*中间的详细信息  */
+  .deal-margin-left {
+    margin-left: 143px;
+
+  }
+  .hotel-srvice {
+        width: 600px;
+    line-height: 24px;
+  }
+ .deal-margin-left .deal-cellname {
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+ }
+.deal-cell-baesinfo {
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+}
+.deal-cell-baesinfo .deal-detail-spliter {
+    line-height: 20px;
+    margin-right: 20px;
+    float: left;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.fc9 {
+    color:#999;
+}
+.deal-cell-baesinfo .deal-detail-spliter .fc15 {
+    color: #333;
+    font-weight: 300;
+}
+.deal-detail-splite {
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+}
+.deal-detail-splite span {
+    font-size: 12px;
+}
+.deal-detail-splite .fc9 {
+    font-size: 12px;
+}
+.deal-detail-splite .fw35 {
+    font-size: 12px;
+}
+
+/*==================================*/
+.deal-margin-left {
+    margin-left: 143px;
+}
+.deal-margin-left .deal-table {
+    height: 68px;
+    overflow: hidden;
+    display: block;
+    color: #333;
+    font-size: 12px;
+}
+.deal-table tr {
+    height: 68px;
+    border-top: 1px dotted #e5e5e5;
+}
+.block {
+    display: block!important;
+}
+.deal-table td {
+    display: table-cell;
+    vertical-align: middle;
+    height: 68px;
+
+
+}
+.deal-table td .deal-cellname {
+    max-width: 164px;
+    padding-left: 5px;
+        font-weight: 700;
+    display: inline-block;
+    font-size: 12px;
+}
+.deal-table .bor-buttom-dotted {
+    padding-bottom: 2px;
+    cursor: pointer;
+    border-bottom: 1px dotted #333;
+}
+ .deal-table-useinfo {
+    color: #13d1be;
+    cursor: pointer;
+}
+.deal-table .price-color {
+    color: #f60;
+}
+.deal-table .price-number {
+    font-size: 30px;
+    padding-left: 2px;
+    font-style: normal;
+}
+.deal-table .deal-btn {
+        background-color: #f90;
+    border-color: #f90;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    line-height: 2.15;
+    padding: 0 18px;
+    letter-spacing: .1em;
+    text-align: center;
+    border-radius: 2.15em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid;
+    outline: 0;
+    transition: all .3s ease;
+}
+/*酒店介绍   E*/
+/*中间的房间信息     E*/
+
+
+
+/*地图 S*/
+.main-info {
+     width: 100%;
+     margin-bottom: 30px;
+}
+#map {
+    position: relative;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #333;
+    line-height: 2;
+    margin-top: 20px;
+    text-align:left;
+
+    width: 1190px;
+    margin: 0 auto;
+}
+
+ .main-info .bor-bottom {
+  
+        color: #666;
+        font-size: 16px;
+
+ }
+  .main-info .bor-bottom .place-btn {
+    float: left;
+    cursor: pointer;
+    margin-right: 46px;
+    padding-bottom: 20px;
+  }
+  .curren {
+    border-bottom: 2px solid #13d1be;
+      color: #13d1be;
+  }
+   .tail {
+    margin-right: 0px;
+   } 
+/*地图 E*/
+/*==========================*/
+h2 {
+    position: relative;
+    left: 7px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #333;
+    line-height: 2;
+    margin-top: 20px;
+
+}
+.zkdp {
+    margin-bottom: 70px;
+}
+.zkdp .zkdp-border {
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*下面的圆圈   s */
+.list-page-view {
+    margin: 20px 0px;
+}
+.paginator-wrapper {
+        margin: 40px 0;
+    text-align: center;
+    clear: both;
+}
+.paginator {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 12px;
+    list-style: none;
+     margin-left: -58px;
+}
+ .paginator li {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 20px;
+    display: inline-block;
+    border:1px solid  #999;
+ }
+ .paginator .active {
+    border-color: #06c1ae;
+    background-color: #06c1ae;
+     color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+ }
+ .paginator li a {
+    color: #999;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+ }
+ .paginator li:hover {
+    border-color: #06c1ae;
+ }
+ .paginator li:hover a{
+    text-decoration: none;
+    
+    color: #13d1be;
+}
+.ellipsis {
+    border: none;
+    margin-right: 13px;
+
+        border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+        font-size: 16px;
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    min-width: 10px;
+    letter-spacing: 0.2em;
+
+ }
+ /*下面的圆圈   e*/
+/*住客点评*/

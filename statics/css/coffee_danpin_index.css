@@ -1,0 +1,180 @@
+/*  照片部分  S  */
+/*  单品咖啡*/
+.navimg {
+	margin-bottom: 25px;
+	
+}
+.navimg .container {
+	height: 625px;
+	background-image: url(../images/coffee/jianjie2.jpg);
+	position: relative;
+} 
+.navimg img {
+	display: inline-block;
+	position: absolute;
+}
+.navimg .single {
+	display: inline-block;
+	position: absolute;
+	top :10px ;
+	right : 222px;
+	line-height: 1.8em;
+	font-size: 18px;
+	color: #666;
+}
+.navimg .single a {
+	color: #666;
+}
+/* 加奶咖啡 */
+.navimg:nth-child(3)  .container{
+	background-image: url(../images/coffee/u=1646389431,269088517&fm=27&gp=0.jpg);
+}
+.navimg:nth-child(3) img {
+	width: 450px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.navimg:nth-child(3) .single {
+	position: absolute;
+	top: -5px;
+	left: 300px;
+	line-height: 2.8;
+	font-size: 22px;
+	color: #fff;
+}
+/*花式咖啡*/
+.navimg:nth-child(4)  .container{
+	height: 668px;
+	background-image: url(../images/coffee/u=655378072,3885178710&fm=200&gp=0.jpg);
+}
+.navimg .coffee {
+	color: #88a0f4;
+	position: absolute;
+	right: 450px;
+	line-height: 2.8;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.navimg .csingle {
+	color: #88a0f4;
+	position: absolute;
+	right: 137px;
+	line-height: 2.8;
+	font-size: 18px;
+	margin-top: 15px;
+}
+/* 含酒咖啡 */
+.navimg:nth-child(5)  .container{
+	background-image: url(../images/coffee/u=3245667985,254309095&fm=27&gp=0.jpg);
+}
+.navimg:nth-child(5) img {
+	width: 450px;
+	position: absolute;
+	right: -20px;
+	top: 178px;
+}
+.navimg:nth-child(5) .single {
+	position: absolute;
+	top: 0px;
+	left: 215px;
+	line-height: 2.5;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #e1e1e1;
+}
+/*  冰激凌 */
+.navimg:nth-child(6)  .container{
+	background-image: url(../images/coffee/20151010085420_y38vj.jpeg);
+}
+.navimg:nth-child(6) img {
+	width: 500px;
+	position: absolute;
+	top: 0px;
+}
+.navimg:nth-child(6) .single {
+	line-height: 2.3;
+	color :#ee6060;
+	font-size: 18px;
+	position: absolute;
+	right:175px;
+}
+.navimg:nth-child(6) .single a {
+	color: #eacaca;
+}
+/* 含酒咖啡*/
+.navimg:nth-child(7)  .container{
+	background-image: url(../images/coffee/91529822720e0cf35e8ad638006f21fbf09aaf0.jpg);
+}
+.navimg:nth-child(7) img {
+	width: 450px;
+	position: absolute;
+	right: 20px;
+	top: 0px;
+}
+.navimg:nth-child(7) .single {
+	line-height: 2.8;
+    color: #075a59;
+    font-size: 18px;
+    position: absolute;
+    left: 195px;
+    top: 25px;
+}
+/* 雪泡 */
+.navimg:nth-child(8) .container{
+	height: 600px;
+}
+.navimg:nth-child(8)  .container{
+	background-image: url(../images/coffee/9c16fdfaaf51f3deb1fdb4c9feef01f3a29796c.jpg);
+}
+.navimg:nth-child(8) img {
+	width: 300px;
+}
+.navimg:nth-child(8) .single {
+	display: inline-block;
+    position: absolute;
+    top: 170px;
+    right: 290px;
+    line-height: 3.6em;
+    font-size: 35px;
+    color: #b67284;
+}
+.navimg:nth-child(9)  .container{
+	background-image: url(../images/coffee/u=1397641416,2330419814&fm=27&gp=0.jpg);
+}
+/*  甜点松饼*/
+.navimg:nth-child(10)  .container{
+	background-image: url(../images/coffee/u=3093742381,65161196&fm=200&gp=0.jpg);
+}
+.navimg:nth-child(10)  .single a {
+	color: #996c6c;
+	font-size: 22px;
+	line-height: 2.8;
+}
+.navimg:nth-child(11)  .container{
+	background-image: url(../images/coffee/u=3641205580,1031836493&fm=27&gp=0.jpg);
+}
+/*  单点  */
+.navimg:nth-child(12)  .container{
+	background-image: url(../images/coffee/u=4125419079,2004179042&fm=27&gp=0.jpg);
+}
+.navimg:nth-child(12) img {
+	width: 270px;
+}
+.navimg:nth-child(12) .single {
+	position: absolute;
+    top: 30px;
+    right: 530px;
+    line-height: 2.9;
+    font-size: 30px;
+    color: #745114;
+}
+.navimg:nth-child(12) .rsingle {
+	position: absolute;
+    top: 30px;
+    right: 395px;
+    line-height: 2.9;
+    font-size: 30px;
+    color: #745114;
+}
+/*  照片部分  E  */

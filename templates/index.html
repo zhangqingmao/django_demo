@@ -1,0 +1,2145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <title>宿迁美团网-宿迁美食_酒店_旅游_团购_电影_吃喝玩乐</title>
+    <base href="/">
+    <!-- 引入外部样式	通用common.css -->
+    <link rel="stylesheet" href="../../statics/css/common.css">
+    <!-- 引入外部样式	清除reset.css -->
+    <link rel="stylesheet" href="../../statics/css/reset.css">
+    <!-- 引入外部样式	首页index.css -->
+    <link rel="stylesheet" href="../../statics/css/index.css">
+    <!-- 引入网页头部ico图标 -->
+    <link rel="shortcut icon" href="../../statics/images/icon.ico">
+    <!-- 引入外部js		首页index.css -->
+    <script language="JavaScript" src="../../statics/js/index.js"></script>
+</head>
+<body>
+<!-- 美团首页头部 header 部分 S -->
+<div class="header">
+    <!-- 头部导航 S-->
+    <div class="nav clearfix container">
+        <div class="nleft">
+            宿迁
+            <a href="#" class="nposition">切换城市</a>[
+            <a href="#">睢宁</a>
+            <a href="#">泗阳</a>
+            <a href="#">新沂</a> ]
+            <a href="/index/login" class="nlogin">立即登录</a>
+            <a href="/login/zc/">注册</a>
+        </div>
+        <div class="nright">
+            <ul class="clearfix">
+                <li class="nmy"><a href="login/login.html">我的美团</a>
+                    <ul>
+                        <li><a href="login/login.html" target="_blank">我的订单</a></li>
+                        <li><a href="login/login.html" target="_blank">我的评价</a></li>
+                        <li><a href="login/login.html" target="_blank">我的收藏</a></li>
+                        <li><a href="login/login.html" target="_blank">抵用券</a></li>
+                        <li><a href="login/login.html" target="_blank">账户设置</a></li>
+                    </ul>
+                </li>
+                <li><a href="content/weikai.html">手机APP</a></li>
+                <li class="ntrade"><a href="#">商家中心</a>
+                    <div class="nline"></div>
+                    <ul>
+                        <li><a href="content/weikai.html">登录商家中心</a></li>
+                        <li><a href="content/shangjia.html">我想合作</a></li>
+                        <li><a href="content/weikai.html">手机免费开店</a></li>
+                        <li><a href="content/weikai.html">餐饮代理商招募</a></li>
+                        <li><a href="content/weikai.html">商家申请开票</a></li>
+                    </ul>
+                </li>
+                <li class="wzdh">网站导航
+                    <div class="nline_"></div>
+                    <div class="navmenu clearfix">
+                        <dl class="hotel">
+                            <dt>酒店旅游</dt>
+                            <dd><a href="content/mtjd.html">酒店</a></dd>
+                            <dd><a href="content/mtjd.html">高端酒店</a></dd>
+                            <dd><a href="content/mtjd.html">主题酒店</a></dd>
+                            <dd><a href="content/mtjd.html">青年旅社</a></dd>
+                            <dd><a href="content/mtjd.html">客栈</a></dd>
+                            <dd><a href="content/weikai.html">周边游</a></dd>
+                            <dd><a href="content/weikai.html">景点门票</a></dd>
+                            <dd><a href="content/weikai.html">温泉</a></dd>
+                            <dd><a href="content/weikai.html">农家乐</a></dd>
+                            <dd><a href="content/weikai.html">公园游乐园</a></dd>
+                            <dd><a href="content/weikai.html">跟团游</a></dd>
+                            <dd><a href="content/weikai.html">国内游</a></dd>
+                            <dd><a href="content/weikai.html">境外游</a></dd>
+                            <dd><a href="content/weikai.html">签证</a></dd>
+                        </dl>
+                        <dl class="cate">
+                            <dt>吃美食</dt>
+                            <dd><a href="content/weikai.html">美食</a></dd>
+                            <dd><a href="content/weikai.html">特色小吃</a></dd>
+                            <dd><a href="content/weikai.html">烧烤</a></dd>
+                            <dd><a href="content/weikai.html">自助餐</a></dd>
+                            <dd><a href="content/weikai.html">火锅</a></dd>
+                            <dd><a href="content/weikai.html">代金券</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>看电影</dt>
+                            <dd><a href="#mydy_">热映电影</a></dd>
+                        </dl>
+                        <dl class="app">
+                            <dt>手机应用</dt>
+                            <dd><a href="#"><img src="../../statics/images/index/meituan.png" alt=""></a></dd>
+                            <dd><a href="content/waimai.html"><img src="../../statics/images/index/waimai.png"
+                                                                   alt=""></a></dd>
+                            <dd><a href="#"><img src="../../statics/images/index/zhenguo.png" alt=""></a></dd>
+                            <dd><a href="content/hezuo.html"><img src="../../statics/images/index/dianping.png"
+                                                                  alt=""></a></dd>
+                            <dd><a href="#mydy_"><img src="../../statics/images/index/maoyan.png" alt=""></a></dd>
+                        </dl>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部导航 E -->
+    <div class="head_ clearfix">
+        <div class="container clearfix">
+            <!-- logo -->
+            <div class="logo">
+                <img src="../../statics/images/index/logo.png" alt="">
+            </div>
+            <!-- 搜索 -->
+            <div class="search">
+                <div class="search-block">
+                    <input type="text" name="" id="search" placeholder="搜索商家或地点" onclick="xianshi()">
+                    <button></button>
+                    <dl id="search_hot">
+                        <dt>热门搜索</dt>
+                        <dd><a href="content/weikai.html">金滏山自助烤肉美食中心</a></dd>
+                        <dd><a href="content/weikai.html">过路人台湾饭团</a></dd>
+                        <dd><a href="content/weikai.html">七欣天品蟹轩</a></dd>
+                        <dd><a href="content/weikai.html">项妃鸭</a></dd>
+                    </dl>
+                </div>
+                <div class="search-word">
+                    <a href="content/weikai.html">金滏山自助烤肉美食中心</a><a href="content/weikai.html">过路人台湾饭团</a><a
+                        href="content/weikai.html">七欣天品蟹轩</a><a href="content/weikai.html">项妃鸭</a><a
+                        href="content/weikai.html">欢乐牧场自助餐厅</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 美团首页头部 header 部分 E -->
+
+<!-- 美团首页内容主题 wrap 部分 S-->
+<div class="wrap" onclick="out()">
+    <!-- 广告栏 banner 开始 S -->
+    <div class="banner container clearfix">
+        <!-- 左菜单栏 S -->
+        <div class="left-banner">
+            <div class="category">
+                <div class="catetitle">
+                    <span>全部分类</span>
+                </div>
+                <div class="catecontent">
+                    <ul>
+                        <li>
+                            <a href="#">美食</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>美食</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">代金券</a>
+                                <a href="content/weikai.html">甜点饮品</a>
+                                <a href="content/weikai.html">火锅</a>
+                                <a href="content/weikai.html">自助餐</a>
+                                <a href="content/weikai.html">小吃快餐</a>
+                                <a href="content/weikai.html">日韩料理</a>
+                                <a href="content/weikai.html">西餐</a>
+                                <a href="content/weikai.html">聚餐宴请</a>
+                                <a href="content/weikai.html">烧烤烤肉</a>
+                                <a href="content/weikai.html">东北菜</a>
+                                <a href="content/weikai.html">川湘菜</a>
+                                <a href="content/weikai.html">江浙菜</a>
+                                <a href="content/weikai.html">香锅烤鱼</a>
+                                <a href="content/weikai.html">粤港菜</a>
+                                <a href="content/weikai.html">中式烧烤/烤串</a>
+                                <a href="content/weikai.html">西北菜</a>
+                                <a href="content/weikai.html">咖啡酒吧茶馆</a>
+                                <a href="content/weikai.html">云贵菜</a>
+                                <a href="content/weikai.html">东南亚菜</a>
+                                <a href="content/weikai.html">海鲜</a>
+                                <a href="content/weikai.html">素食</a>
+                                <a href="content/weikai.html">台湾/客家菜</a>
+                                <a href="content/weikai.html">创意菜汤/粥/炖菜</a>
+                                <a href="content/weikai.html">蒙餐</a>
+                                <a href="content/weikai.html">新疆菜</a>
+                                <a href="content/weikai.html">其他美食</a>
+                                <a href="content/weikai.html">京菜鲁菜</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/mtwm.html">外卖</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>外卖</span><a href="content/mtwm.html" class="move">更多></a>
+                                </div>
+                                <a href="content/mtwm.html">美团外卖</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/mtjd.html">酒店</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>酒店星级</span><a href="content/mtjd.html" class="move">更多></a>
+                                </div>
+                                <a href="content/mtjd.html">经济型</a><a href="content/mtjd.html">舒适/三星</a>
+                                <a href="content/mtjd.html">高档/四星</a><a href="content/mtjd.html">豪华/五星</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/weikai.html">榛果民宿</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>热门城市</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">上海</a>
+                                <a href="content/weikai.html">成都</a>
+                                <a href="content/weikai.html">北京</a>
+                                <a href="content/weikai.html">重庆</a>
+                                <a href="content/weikai.html">南京</a>
+                                <a href="content/weikai.html">杭州</a>
+                                <a href="content/weikai.html">广州</a>
+                                <a href="content/weikai.html">西安</a>
+                                <a href="content/weikai.html">大连</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#mydy_">猫眼电影</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>热映电影</span><a href="#mydy_" class="move">更多></a>
+                                </div>
+                                <a href="#mydy_">雷神3：诸神黄昏</a>
+                                <a href="#mydy_">密战</a>
+                                <a href="#mydy_">全球风暴</a>
+                                <a href="#mydy_">相爱相亲</a>
+                                <a href="#mydy_">羞羞的铁拳</a>
+                                <a href="#mydy_">狂兽</a>
+                                <a href="#mydy_">七十七天</a>
+                                <a href="#mydy_">东方快车谋杀案</a>
+                                <a href="#mydy_">王牌特工2：黄金圈</a>
+                                <a href="#mydy_">烽火芳菲</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/huoche.html">机票/火车票</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>机票</span><a href="content/huoche.html" class="move">更多></a>
+                                </div>
+                                <a href="content/huoche.html">国际机票</a>
+                                <div class="catemenu-title">
+                                    <span>火车票</span><a href="content/huoche.html" class="move">更多></a>
+                                </div>
+                                <a href="content/huoche.html">火车票</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/coffee.html">休闲娱乐/KTV</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>休闲娱乐</span><a href="content/coffee.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">足疗按摩</a>
+                                <a href="content/weikai.html">洗浴/汗蒸</a>
+                                <a href="content/weikai.html">酒吧</a>
+                                <a href="content/weikai.html">密室逃脱</a>
+                                <a href="content/weikai.html">轰趴馆</a>
+                                <a href="content/weikai.html">茶馆</a>
+                                <a href="content/weikai.html">私人影院</a>
+                                <a href="content/weikai.html">DIY手工坊</a>
+                                <a href="content/weikai.html">采摘/农家乐</a>
+                                <a href="content/weikai.html">网吧网咖</a>
+                                <a href="content/weikai.html">游乐游艺</a>
+                                <a href="content/weikai.html">VR</a>
+                                <a href="content/weikai.html">桌面游戏</a>
+                                <a href="content/weikai.html">真人CS</a>
+                                <a href="content/weikai.html">棋牌室</a>
+                                <a href="content/weikai.html">其他玩乐</a>
+                                <div class="catemenu-title">
+                                    <span>KTV</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">KTV</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/weikai.html">丽人/美发/医学美容</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>丽人</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">美发</a>
+                                <a href="content/weikai.html">美甲美睫</a>
+                                <a href="content/weikai.html">美容美体</a>
+                                <a href="content/weikai.html">瑜伽舞蹈</a>
+                                <a href="content/weikai.html">瘦身纤体</a>
+                                <a href="content/weikai.html">韩式定妆</a>
+                                <a href="content/weikai.html">祛痘</a>
+                                <a href="content/weikai.html">纹身</a>
+                                <a href="content/weikai.html">化妆品</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/weikai.html">结婚/婚纱摄影/婚宴</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>结婚</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">婚纱摄影</a>
+                                <a href="content/weikai.html">旅拍</a>
+                                <a href="content/weikai.html">个性写真</a>
+                                <a href="content/weikai.html">婚宴</a>
+                                <a href="content/weikai.html">婚庆公司</a>
+                                <a href="content/weikai.html">婚纱礼服</a>
+                                <a href="content/weikai.html">西服定制</a>
+                                <a href="content/weikai.html">婚戒首饰</a>
+                                <a href="content/weikai.html">婚车租赁</a>
+                                <a href="content/weikai.html">司仪主持</a>
+                                <a href="content/weikai.html">彩妆造型</a>
+                                <a href="content/weikai.html">婚礼跟拍</a>
+                                <a href="content/weikai.html">婚礼小礼品</a>
+                                <a href="#content/weikai.html">更多婚礼服务</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="content/weikai.html">亲子/儿童乐园/幼教</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>儿童乐园</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="#">婴儿游泳</a><a href="content/weikai.html">其它亲子游乐</a>
+                                <div class="catemenu-title">
+                                    <span>幼儿教育</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="#">早教中心</a><a href="content/weikai.html">少儿英语</a><a href="content/weikai.html">智力开发</a><a
+                                    href="content/weikai.html">托班/幼儿园</a><a href="content/weikai.html">幼儿教育</a><a
+                                    href="#">其他幼儿教育</a>
+                                <div class="catemenu-title">
+                                    <span>亲子摄影</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">儿童摄影</a>
+                                <a href="#">孕妇写真</a>
+                                <a href="content/weikai.html">上门拍</a>
+                                <a href="content/weikai.html">其他亲子摄影</a>
+                                <div class="catemenu-title">
+                                    <span>孕产护理</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">月子会所</a>
+                                <a href="content/weikai.html">产后恢复</a>
+                                <a href="content/weikai.html">妇幼医院</a>
+                                <a href="content/weikai.html">孕产用品</a>
+                                <a href="content/weikai.html">开奶催乳</a>
+                                <a href="content/weikai.html">月嫂</a>
+                                <a href="content/weikai.html">亲子购物</a>
+                                <a href="content/weikai.html">宝宝派对</a>
+                                <a href="content/weikai.html">亲子服务</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">运动健身/健身中心</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>运动健身</span><a href="#" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">健身中心</a>
+                                <a href="content/weikai.html">武术场馆</a>
+                                <a href="content/weikai.html">游泳馆</a>
+                                <a href="content/weikai.html">羽毛球馆</a>
+                                <a href="content/weikai.html">溜冰场</a>
+                                <a href="content/weikai.html">射箭馆</a>
+                                <a href="content/weikai.html">篮球场</a>
+                                <a href="content/weikai.html">网球馆</a>
+                                <a href="content/weikai.html">台球馆</a>
+                                <a href="content/weikai.html">乒乓球</a>
+                                <a href="content/weikai.html">足球场</a>
+                                <a href="content/weikai.html">高尔夫场</a>
+                                <a href="content/weikai.html">保龄球馆</a>
+                                <a href="content/weikai.html">体育场馆</a>
+                                <a href="content/weikai.html">马术场</a>
+                                <a href="content/weikai.html">壁球馆</a>
+                                <a href="content/weikai.html">更多运动</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/weikai.html">家装/建材/家居</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>装修设计</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">半包装修</a>
+                                <a href="content/weikai.html">全包装修</a>
+                                <a href="content/weikai.html">清包装修</a>
+                                <div class="catemenu-title">
+                                    <span>装修建材</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">地板</a>
+                                <a href="content/weikai.html">瓷砖石材</a>
+                                <a href="content/weikai.html">橱柜</a>
+                                <a href="content/weikai.html">灯饰照明</a>
+                                <a href="content/weikai.html">厨卫洁具</a>
+                                <a href="content/weikai.html">油漆涂料</a>
+                                <a href="content/weikai.html">集成吊顶</a>
+                                <a href="content/weikai.html">墙纸墙艺</a>
+                                <a href="content/weikai.html">门窗</a>
+                                <a href="content/weikai.html">木材板材</a>
+                                <a href="content/weikai.html">家用五金</a>
+                                <a href="content/weikai.html">电工电料</a>
+                                <a href="content/weikai.html">楼梯</a>
+                                <a href="content/weikai.html">管材管件</a>
+                                <div class="catemenu-title">
+                                    <span>家具家居</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">家具</a>
+                                <a href="content/weikai.html">床上用品/家纺</a>
+                                <a href="content/weikai.html">家居饰品</a>
+                                <a href="content/weikai.html">厨具餐具</a>
+                                <a href="content/weikai.html">智能家居</a>
+                                <div class="catemenu-title">
+                                    <span>家装卖场</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">建材卖场</a>
+                                <a href="content/weikai.html">家居卖场</a>
+                                <a href="content/weikai.html">灯饰卖场</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="content/weikai.html">学习培训/音乐培训</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>音乐培训</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">钢琴</a>
+                                <a href="content/weikai.html">吉他</a>
+                                <a href="content/weikai.html">小提琴</a>
+                                <a href="content/weikai.html">古筝</a>
+                                <a href="content/weikai.html">架子鼓</a>
+                                <a href="content/weikai.html">声乐</a>
+                                <a href="content/weikai.html">其他音乐培训</a>
+                                <div class="catemenu-title">
+                                    <span>职业技术</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">美容化妆</a>
+                                <a href="content/weikai.html">会计</a>
+                                <a href="content/weikai.html">IT</a>
+                                <a href="content/weikai.html">厨艺</a>
+                                <a href="content/weikai.html">管理培训</a>
+                                <a href="content/weikai.html">摄影培训</a>
+                                <a href="content/weikai.html">司法考试</a>
+                                <a href="content/weikai.html">公务员培训</a>
+                                <a href="content/weikai.html">其他职业培训</a>
+                                <div class="catemenu-title">
+                                    <span>外语培训</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">英语</a>
+                                <a href="content/weikai.html">日语</a>
+                                <a href="content/weikai.html">韩语</a>
+                                <a href="content/weikai.html">法语</a>
+                                <a href="content/weikai.html">德语</a>
+                                <a href="content/weikai.html">汉语</a>
+                                <a href="content/weikai.html">俄语</a>
+                                <a href="content/weikai.html">西班牙语</a>
+                                <a href="content/weikai.html">其他外语</a>
+                                <div class="catemenu-title">
+                                    <span>美术培训</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">绘画</a>
+                                <a href="content/weikai.html">书法</a>
+                                <a href="content/weikai.html">其他美术</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#">医疗健康/宠物/爱车</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>医疗健康</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">医院</a>
+                                <a href="content/weikai.html">齿科口腔</a>
+                                <a href="content/weikai.html">体检中心</a>
+                                <a href="content/weikai.html">药店</a>
+                                <a href="content/weikai.html">中医</a>
+                                <a href="content/weikai.html">其他健康服务</a>
+                                <div class="catemenu-title">
+                                    <span>爱车</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">洗车</a>
+                                <a href="content/weikai.html">租车</a>
+                                <a href="content/weikai.html">加油站</a>
+                                <a href="content/weikai.html">维修保养</a>
+                                <a href="content/weikai.html">驾校</a>
+                                <a href="content/weikai.html">汽车美容</a>
+                                <a href="content/weikai.html">陪练</a>
+                                <a href="content/weikai.html">汽车用品</a>
+                                <a href="content/weikai.html">停车场</a>
+                                <a href="content/weikai.html">汽车保险</a>
+                                <a href="content/weikai.html">4S店/汽车销售</a>
+                                <a href="content/weikai.html">更多汽车服务</a>
+                                <a href="content/weikai.html">机油保养</a>
+                                <a href="content/weikai.html">汽车报价</a>
+                                <a href="content/weikai.html">二手车</a>
+                                <a href="content/weikai.html">广告驾校</a>
+                                <a href="content/weikai.html">交警队</a>
+                                <a href="content/weikai.html">汽车改装</a>
+                                <a href="content/weikai.html">汽车配件</a>
+                                <div class="catemenu-title">
+                                    <span>宠物</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">宠物店</a>
+                                <a href="content/weikai.html">宠物医院</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#">酒吧/密室逃脱</a>
+                            <i></i>
+                            <div class="catemenu">
+                                <div class="catemenu-title">
+                                    <span>玩乐</span><a href="content/weikai.html" class="move">更多></a>
+                                </div>
+                                <a href="content/weikai.html">KTV</a>
+                                <a href="content/weikai.html">酒吧</a>
+                                <a href="content/weikai.html">密室逃脱</a>
+                                <a href="content/weikai.html">游乐游艺</a>
+                                <a href="content/weikai.html">网吧网咖</a>
+                                <a href="content/weikai.html">私人影院</a>
+                                <a href="content/weikai.html">DIY手工坊</a>
+                                <a href="content/weikai.html">桌面游戏</a>
+                                <a href="content/weikai.html">采摘/农家乐</a>
+                                <a href="content/weikai.html">棋牌室</a>
+                                <a href="content/weikai.html">轰趴馆</a>
+                                <a href="content/weikai.html">真人CS</a>
+                                <a href="content/weikai.html">VR</a>
+                                <a href="content/weikai.html">其他玩乐</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 左菜单栏 E -->
+
+        <!-- 右广告栏 S -->
+        <div class="right-banner">
+            <div class="banner-home">
+                <a href="content/mtwm.html">美团外卖</a>
+                <a href="content/coffee.html">咖啡之翼</a>
+                <a href="content/mtjd.html">美团酒店</a>
+                <a href="content/shangjia.html">商家入驻</a>
+            </div>
+
+            <div class="banner-row">
+                <div class="shadow" onmouseover="xianshi1()" onmouseout="out1()">
+                    <a href="content/ganenjie.html" id="imgclj">
+                        <img src="../../statics/images/index/1.1.jpg" alt="" id="img01">
+                    </a>
+                    <div class="prev" id="prev">
+                        <a href="javascript:void(0)" onclick="prev1()">&lt;</a>
+                    </div>
+                    <div class="next" id="next">
+                        <a href="javascript:void(0)" onclick="next1()">&gt;</a>
+                    </div>
+                </div>
+
+                <a href="content/coffee.html">
+                    <div class="shadow1"></div>
+                </a>
+                <div class="shadow2">
+                    <img src="../../statics/images/index/avatar.jpg" alt="">
+                    <p>Hi！你好</p>
+                    <a href="login/zc.html">注册</a>
+                    <a href="login/login.html">登录</a>
+                </div>
+            </div>
+            <div class="banner-row">
+                <a href="#mydy_">
+                    <div class="pic1"></div>
+                </a>
+                <a href="content/mtwm.html">
+                    <div class="pic2"></div>
+                </a>
+                <a href="content/shangjia.html">
+                    <div class="pic3"></div>
+                </a>
+                <div class="download-app">
+                    <img src="../../statics/images/index/download-qr.png" alt="">
+                    <p>美团APP手机版</p>
+                    <p class="font-min"><span>1元起</span>&nbsp;&nbsp;吃喝玩乐</p>
+                </div>
+            </div>
+        </div>
+        <!-- 右广告栏 E -->
+    </div>
+    <!-- 广告栏 banner 结束	E -->
+
+    <!-- 网页内容 main 部分 S-->
+    <div class="main">
+        <div class="container">
+            <!-- 有格调部分 -->
+            <div class="yougd">
+                <div class="boxtitle clearfix">
+                    <ul>
+                        <li>有格调</li>
+                        <li onmouseover="quanbu()">全部</li>
+                        <li onmouseover="yuehui()">约会聚餐</li>
+                        <li onmouseover="spa()">丽人SPA</li>
+                        <li onmouseover="yanchu()">电影演出</li>
+                        <li onmouseover="chuyou()">品质出游</li>
+                    </ul>
+                </div>
+                <div class="boxcontent ygd" id="ygd">
+
+                    <ul class="clearfix">
+                        <a href="content/mtjd06.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/c9b141339.jpg" alt="">
+                                <p class="mintitle">恒力国际大酒店</p>
+                                <span class="desc">亲子场景酒店</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">588</span>/起
+                                </p>
+                            </li>
+                        </a>
+                        <a href="content/ygzjr.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/quanbu1.png" alt="">
+                                <p class="mintitle">渔歌子假日酒店</p>
+                                <span class="desc">
+									<u class="dborder">预约发票</u>
+									<u class="dborder">HOS金冠</u>
+									<u class="dborder">假团房</u>
+									<u class="dborder">含早</u>
+								</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">238</span>/起
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/__27505261__3524442.jpg" alt="">
+                                <p class="mintitle">横店电影城(富园店)</p>
+                                <span class="desc">免押金,可停车,儿童票,可刷卡,有WIFI,休息区</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">24</span>/人均
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/__42535614__8782999.jpg" alt="">
+                                <p class="mintitle">乐佳创意蛋糕（府苑蛋糕店）</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">86.4</span>
+                                    <del class="moneydel">门市价&yen;96</del>
+                                    <i>宿城区</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/jt.png" alt="" class="jiantou">
+                                <img src="../../statics/images/index/__36928011__5228852.jpg" alt="">
+                                <p class="mintitle">艾米国际电影城</p>
+                                <span class="desc">免押金,可停车,有情侣座,儿童票,可刷卡,有WIFI</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">20</span>/人均
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/__49174778__9276352.jpg" alt="">
+                                <p class="mintitle">潮辣潮人火锅</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">85</span>
+                                    <del class="moneydel">门市价&yen;275</del>
+                                    <i>金鹰国际</i>
+                                </p>
+                            </li>
+                        </a>
+
+                    </ul>
+                </div>
+                <div class="boxcontent ygd-1" id="ygd_1">
+                    <img src="../../statics/images/index/jt.png" alt="" class="jiantou">
+                    <ul class="clearfix">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/68ab244747.jpg" alt="">
+                                <p class="mintitle">鲜榨果汁VQJuice Bar（金鹰店）</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">9.9</span>/人均
+                                    <del class="moneydel">门市价&yen;9.9</del>
+                                    <i>金鹰国际</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/81055.jpg" alt="">
+                                <p class="mintitle">山姆大叔</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">38</span>
+                                    <del class="moneydel">门市价&yen;55</del>
+                                    <i>水韵城</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/50c3545.jpg" alt="">
+                                <p class="mintitle">钻石楼酒店</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">498</span>
+                                    <del class="moneydel">门市价&yen;858</del>
+                                    <i>宿城区</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/236084.jpg" alt="">
+                                <p class="mintitle">陈氏蛋糕（酒家路店）</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">60</span>
+                                    <del class="moneydel">门市价&yen;88</del>
+                                    <i>洋河</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/46301.jpg" alt="">
+                                <p class="mintitle">小汪糕点（10店））</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">99.8</span>
+                                    <del class="moneydel">门市价&yen;129</del>
+                                    <i>宿城区</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/0053.jpg" alt="">
+                                <p class="mintitle">心品面包坊（中豪国际店）</p>
+                                <span class="desc"></span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">82</span>
+                                    <del class="moneydel">门市价&yen;100</del>
+                                    <i>希望城</i>
+                                </p>
+                            </li>
+                        </a>
+
+                    </ul>
+                </div>
+                <div class="boxcontent ygd-2" id="ygd_2">
+                    <img src="../../statics/images/index/jt.png" alt="" class="jiantou">
+                    <ul class="clearfix">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-spa1.jpg" alt="">
+                                <p class="mintitle">珊珊工作室</p>
+                                <span class="desc">珊珊工作室</span>
+                                <p class="money">
+                                    <span></span>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-spa2.jpg" alt="">
+                                <p class="mintitle">金古屋女子美容美发</p>
+                                <span class="desc">金古屋女子美容美发</span>
+                                <p class="money">
+                                    <span></span>
+                                    <del class="moneydel"></del>
+                                    <i></i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-spa3.jpg" alt="">
+                                <p class="mintitle">自由女神美发店</p>
+                                <span class="desc">自由女神美发店</span>
+                                <p class="money">
+                                    <span></span>
+                                    <del class="moneydel"></del>
+                                    <i>大润发</i>
+                                </p>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-spa4.jpg" alt="">
+                                <p class="mintitle">善泽护肤中心</p>
+                                <span class="desc">善泽护肤中心</span>
+                                <p class="money">
+
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-spa5.jpg" alt="">
+                                <p class="mintitle">妒爱美容美体</p>
+                                <span class="desc">妒爱美容美体</span>
+                                <p class="money">
+                                    <span></span>
+                                    <del class="mon	eydel"></del>
+                                    <i></i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-spa6.jpg" alt="">
+                                <p class="mintitle">漂亮宝宝</p>
+                                <span class="desc">漂亮宝宝</span>
+                                <p class="money">
+                                    <span></span>
+                                    <del class="moneydel"></del>
+                                    <i></i>
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="boxcontent ygd-3" id="ygd_3">
+                    <img src="../../statics/images/index/jt.png" alt="" class="jiantou">
+                    <ul class="clearfix">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-dy1.jpg" alt="">
+                                <p class="mintitle">红旗电影大世界</p>
+                                <span class="desc">免押金,可停车,儿童票,有WIFI</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">20.9</span>/人均
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-dy2.jpg" alt="">
+                                <p class="mintitle">横店电影城(富园店)</p>
+                                <span class="desc">免押金,可停车,儿童票,可刷卡,有WIFI,休息区</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">24</span>/人均
+                                    <del class="moneydel"></del>
+                                    <i></i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-dy3.jpg" alt="">
+                                <p class="mintitle">唐阁辰骏电影城(泗阳店)</p>
+                                <span class="desc">免押金,可停车,有情侣座,可刷卡,有WIFI,休息区</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">19.9</span>/人均
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-dy4.jpg" alt="">
+                                <p class="mintitle">CGV影城(西湖店)</p>
+                                <span class="desc">休闲度假</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">9.9</span>/人均
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-dy5.jpg" alt="">
+                                <p class="mintitle">联娱国际影城泗洪花园口广场店</p>
+                                <span class="desc">免押金,可停车,儿童票,有WIFI,杜比全景声厅</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">23</span>/人均
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-dy6.jpg" alt="">
+                                <p class="mintitle">幸福蓝海国际影城(泗阳中央店)</p>
+                                <span class="desc">免押金,可停车,有情侣座,儿童票,有WIFI,4K厅,巨幕厅</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">20.9</span>/人均
+                                    <del class="moneydel"></del>
+                                    <i></i>
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="boxcontent ygd-4" id="ygd_4">
+                    <img src="../../statics/images/index/jt.png" alt="" class="jiantou">
+                    <ul class="clearfix">
+                        <a href="content/gjfd.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-cy1.png" alt="">
+                                <p class="mintitle">国际饭店</p>
+                                <span class="desc">
+									<u class="dborder">休闲度假</u>
+								</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">328</span>/起
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/hlgj.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-cy2.png" alt="">
+                                <p class="mintitle">恒力国际大酒店</p>
+                                <div class="tga">
+                                    <u class="dborder">亲子场景酒店</u>
+                                    <u class="dborder">HOS金冠</u>
+                                    <u class="dborder">假团房</u>
+                                    <u class="dborder">休闲度假</u>
+                                    <u class="dborder">老客全网低价</u>
+                                    <u class="dborder">新客全网低价</u>
+                                    <u class="dborder">亲子酒店点评</u>
+                                    <u class="dborder">含早</u>
+                                </div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">588</span>/起
+                                    <del class="moneydel"></del>
+                                    <i></i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/fhlz.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-cy3.png" alt="">
+                                <p class="mintitle">枫华丽致酒店</p>
+                                <span class="desc">
+									<u class="dborder">HOS金冠</u>
+									<u class="dborder">假团房</u>
+									<u class="dborder">含早</u>
+								</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">199</span>/起
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/kymd.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-cy4.png" alt="">
+                                <p class="mintitle">泗阳开元名都大酒店</p>
+                                <span class="desc">
+									<u class="dborder">HOS金冠</u>
+									<u class="dborder">休闲度假</u>
+									<u class="dborder">老客全网低价</u>
+									<u class="dborder">新客全网低价</u>
+									<u class="dborder">含早</u>
+								</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">398</span>/起
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/jldfd.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-cy5.png" alt="">
+                                <p class="mintitle">宿迁运河金陵大饭店</p>
+                                <span class="desc">
+									<u class="dborder">情侣酒店</u>
+									<u class="dborder">HOS金冠</u>
+									<u class="dborder">假团房</u>
+									<u class="dborder">休闲度假</u>
+								</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">328</span>/起
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/sydjd.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/ygd-cy6.png" alt="">
+                                <p class="mintitle">沭阳大酒店</p>
+                                <span class="desc">
+									<u class="dborder">老客全网低价</u>
+									<u class="dborder">含早</u>
+								</span>
+                                <p class="money">
+                                    &yen;<span class="moneybold">260</span>/起
+                                    <del class="moneydel"></del>
+                                    <i></i>
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 狠优惠部分 -->
+            <div class="hyh">
+                <div class="boxtitle">
+                    <ul class="clearfix">
+                        <li>狠优惠</li>
+                        <li onmouseover="quanbu1()">全部</li>
+                        <li onmouseover="meishi()">美食</li>
+                        <li onmouseover="dianying()">电影</li>
+                        <li onmouseover="yule()">休娱</li>
+                    </ul>
+                </div>
+                <div class="boxcontent hyh-1" id="hyh_1">
+                    <ul class="clearfix">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/jt1.png" alt="" class="jiantou">
+                                <img src="../../statics/images/index/_7268665.jpg" alt="">
+                                <p class="mintitle">后街咖啡</p>
+                                <p class="desc">[宝龙城市广场]单人套餐，提供免费WiFi</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">9.9</span>
+                                    <del class="moneydel">美团价&yen;34</del>
+                                    <i>已售4929</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/56ded1489030.jpg" alt="">
+                                <p class="mintitle">项妃鸭</p>
+                                <p class="desc">[宿城区]试吃套装1份，提供免费WiFi</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">1</span>
+                                    <del class="moneydel">美团价&yen;8.8</del>
+                                    <i>已售4012</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/3__8396112.jpg" alt="">
+                                <p class="mintitle">好声音KTV（沭阳二店）</p>
+                                <p class="desc">[乐天玛特二店]下午场包段7小时欢唱</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">38</span>
+                                    <del class="moneydel">门市价&yen;958</del>
+                                    <i>已售114</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/8db5ac09811350.png" alt="">
+                                <p class="mintitle">项妃鸭</p>
+                                <p class="desc">[3店通用]一元试喝任选一种8选1</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">1</span>
+                                    <del class="moneydel">美团价&yen;8</del>
+                                    <i>已售1541</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/63a96155.jpg" alt="">
+                                <p class="mintitle">唯秀量贩式KTV</p>
+                                <p class="desc">[沭阳]下午档 3小时欢唱券</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">58</span>
+                                    <del class="moneydel">门市价&yen;1290</del>
+                                    <i>已售2736</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/94__8739895.jpg" alt="">
+                                <p class="mintitle">扬歌KTV</p>
+                                <p class="desc">[金鹰国际][生日专享]全天3小时欢唱+生日套餐</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">18.8</span>
+                                    <del class="moneydel">门市价&yen;366</del>
+                                    <i>已售89</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/362327549.jpg" alt="">
+                                <p class="mintitle">项妃鸭</p>
+                                <p class="desc">[2店通用]试吃装一份1份，提供免费WiFi</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">1</span>
+                                    <del class="moneydel">美团价&yen;8</del>
+                                    <i>已售585</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-qb8.jpg" alt="">
+                                <p class="mintitle">兰菲尔spa</p>
+                                <p class="desc">[幸福路]单人兰菲尔SPA特惠刮痧+拔罐</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">9.9</span>
+                                    <del class="moneydel">美团价&yen;168</del>
+                                    <i>已售298</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/94__8739895.jpg" alt="">
+                                <p class="mintitle">扬歌KTV</p>
+                                <p class="desc">[金鹰国际]全天3小时欢唱</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">19.9</span>
+                                    <del class="moneydel">美团价&yen;288</del>
+                                    <i>已售2665</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/c03780186621.jpg" alt="">
+                                <p class="mintitle">爆米花量贩式KTV</p>
+                                <p class="desc">[沭阳]下午场 3小时欢唱券</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">39.9</span>
+                                    <del class="moneydel">门市价&yen;308</del>
+                                    <i>已售3845</i>
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="boxcontent hyh-2" id="hyh_2">
+                    <ul class="clearfix">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/jt1.png" alt="" class="jiantou">
+                                <img src="../../statics/images/index/hyh-ms1.jpg" alt="">
+                                <p class="mintitle">小小河边鱼</p>
+                                <p class="desc">[幸福路]50元代金券1张</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">9.9</span>
+                                    <del class="moneydel">美团价&yen;50</del>
+                                    <i>已售269</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms2.jpg" alt="">
+                                <p class="mintitle">格林咖啡</p>
+                                <p class="desc">[洋河]精品菲力牛排套餐，建议2人使用</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">98</span>
+                                    <del class="moneydel">美团价&yen;452</del>
+                                    <i>已售4471</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms3.jpg" alt="">
+                                <p class="mintitle">安特鲁西点</p>
+                                <p class="desc">[区府广场]内容5选1，包间免费</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">2.9</span>
+                                    <del class="moneydel">美团价&yen;12</del>
+                                    <i>已售781</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms4.jpg" alt="">
+                                <p class="mintitle">格林咖啡</p>
+                                <p class="desc">[洋河]精品套餐 9寸披萨+2杯饮品，建议2人使用</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">29</span>
+                                    <del class="moneydel">美团价&yen;118</del>
+                                    <i>已售2798</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms5.jpg" alt="">
+                                <p class="mintitle">项妃鸭</p>
+                                <p class="desc">[宿城区]招牌鸭肠烤煎饼1份</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">2</span>
+                                    <del class="moneydel">美团价&yen;8</del>
+                                    <i>已售377</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms6.jpg" alt="">
+                                <p class="mintitle">智士多比萨</p>
+                                <p class="desc">[宿城区]蛋挞1个，包间免费</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">0.99</span>
+                                    <del class="moneydel">美团价&yen;4</del>
+                                    <i>已售1485</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms7.jpg" alt="">
+                                <p class="mintitle">手工糖</p>
+                                <p class="desc">[宝龙广场]彩虹棒棒糖1份，包间免费</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">2.8</span>
+                                    <del class="moneydel">美团价&yen;10</del>
+                                    <i>已售147</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms8.jpg" alt="">
+                                <p class="mintitle">桔子团购零食一站式服务</p>
+                                <p class="desc">[宿城区]超值特色随身包5选1，包间免费</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">0.29</span>
+                                    <del class="moneydel">美团价&yen;1</del>
+                                    <i>已售1431</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms9.jpg" alt="">
+                                <p class="mintitle">项妃鸭</p>
+                                <p class="desc">[3店通用]一元试喝任选一种8选1</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">1</span>
+                                    <del class="moneydel">美团价&yen;8</del>
+                                    <i>已售1547</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-ms10.jpg" alt="">
+                                <p class="mintitle">项妃鸭</p>
+                                <p class="desc">[2店通用]试吃装一份1份，提供免费WiFi</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">1</span>
+                                    <del class="moneydel">美团价&yen;8</del>
+                                    <i>已售585</i>
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="boxcontent hyh-3" id="hyh_3">
+                    <ul class="clearfix">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/jt1.png" alt="" class="jiantou">
+                                <img src="../../statics/images/index/hyh-dy1.jpg" alt="">
+                                <p class="mintitle">星美国际影城(宿迁幸福路店)</p>
+                                <p class="desc">追龙</p>
+                                <div class="tga">
+                                    <u class="dborder">退</u>
+                                    <u class="dborder">改签</u>
+                                </div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">9.9</span>
+                                    <del class="moneydel">门市价&yen;34</del>
+                                    <i>已售5.7万</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy2.jpg" alt="">
+                                <p class="mintitle">新视界国际影城</p>
+                                <p class="desc">全球风暴</p>
+                                <div class="tga">
+                                    <u class="dborder">退</u>
+                                    <u class="dborder">改签</u>
+                                </div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">22.9</span>
+                                    <del class="moneydel">门市价&yen;80</del>
+                                    <i>已售3.5万</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy3.jpg" alt="">
+                                <p class="mintitle">沭阳时尚国际影城</p>
+                                <p class="desc">追龙</p>
+                                <div class="tga">
+                                    <u class="dborder">退</u>
+                                    <u class="dborder">改签</u>
+                                </div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">13.9</span>
+                                    <del class="moneydel">门市价&yen;60</del>
+                                    <i>已售5.7万</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy4.jpg" alt="">
+                                <p class="mintitle">幸福蓝海国际影城(宿迁苏宁店)</p>
+                                <p class="desc">全球风暴</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">26</span>
+                                    <del class="moneydel">门市价&yen;80</del>
+                                    <i>已售3.5万</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy5.jpg" alt="">
+                                <p class="mintitle">幸福蓝海国际影城(沭阳店)</p>
+                                <p class="desc">羞羞的铁拳</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">44</span>
+                                    <del class="moneydel">门市价&yen;80</del>
+                                    <i>已售21.6万</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy6.jpg" alt="">
+                                <p class="mintitle">幸福蓝海国际影城(沭阳店)</p>
+                                <p class="desc">全球风暴</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">26</span>
+                                    <del class="moneydel">门市价&yen;80</del>
+                                    <i>已售3.5万</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy7.jpg" alt="">
+                                <p class="mintitle">艾米国际电影城</p>
+                                <p class="desc">我的爸爸是森林之王</p>
+                                <div class="tga">
+                                    <u class="dborder">退</u>
+                                    <u class="dborder">改签</u>
+                                </div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">20</span>
+                                    <del class="moneydel">门市价&yen;60</del>
+                                    <i>已售4646</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy8.jpg" alt="">
+                                <p class="mintitle">恒大影城</p>
+                                <p class="desc">我的爸爸是森林之王</p>
+                                <div class="tga">
+                                    <u class="dborder">改签</u>
+                                </div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">25</span>
+                                    <del class="moneydel">门市价&yen;70</del>
+                                    <i>已售4656</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy8.jpg" alt="">
+                                <p class="mintitle">恒大影城</p>
+                                <p class="desc">王牌特工2：黄金圈</p>
+                                <div class="tga">
+                                    <u class="dborder">改签</u>
+                                </div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">25</span>
+                                    <del class="moneydel">门市价&yen;70</del>
+                                    <i>已售4.5万</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-dy10.jpg" alt="">
+                                <p class="mintitle">CGV影城(西湖店)</p>
+                                <p class="desc">全球风暴</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">29</span>
+                                    <del class="moneydel">门市价&yen;80</del>
+                                    <i>已售3.5万</i>
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="boxcontent hyh-4" id="hyh_4">
+                    <ul class="clearfix">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/jt1.png" alt="" class="jiantou">
+                                <img src="../../statics/images/index/hyh-yu1.jpg" alt="">
+                                <p class="mintitle">唯秀量贩式KTV</p>
+                                <p class="desc">[沭阳]下午档 3小时欢唱券</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">58</span>
+                                    <del class="moneydel">门市价&yen;1290</del>
+                                    <i>已售2736</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu2.jpg" alt="">
+                                <p class="mintitle">兰菲尔spa</p>
+                                <p class="desc">[幸福路]单人兰菲尔SPA特惠刮痧+拔罐</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">9.9</span>
+                                    <del class="moneydel">门市价&yen;168</del>
+                                    <i>已售298</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu3.jpg" alt="">
+                                <p class="mintitle">扬歌KTV</p>
+                                <div class="tga"></div>
+                                <p class="desc">[金鹰国际]全天3小时欢唱</p>
+                                <p class="money">
+                                    &yen;<span class="moneybold">19.9</span>
+                                    <del class="moneydel">门市价&yen;288</del>
+                                    <i>已售2663</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu4.jpg" alt="">
+                                <p class="mintitle">木兰美容SPA会所</p>
+                                <p class="desc">[楚街]木兰美容SPA会所 牛奶花瓣浴套餐</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">48</span>
+                                    <del class="moneydel">门市价&yen;630</del>
+                                    <i>已售349</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu5.jpg" alt="">
+                                <p class="mintitle">好声音KTV（沭阳二店）</p>
+                                <p class="desc">[乐天玛特二店]下午场3小时欢唱</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">28</span>
+                                    <del class="moneydel">门市价&yen;388</del>
+                                    <i>已售2751</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu6.jpg" alt="">
+                                <p class="mintitle">海乐迪量贩式KTV</p>
+                                <p class="desc">[洋河]下午档 5小时欢唱券</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">19.9</span>
+                                    <del class="moneydel">门市价&yen;220</del>
+                                    <i>已售8783</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu7.jpg" alt="">
+                                <p class="mintitle">唱响量贩式Ktv</p>
+                                <p class="desc">[大润发]下午场包段欢唱</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">38</span>
+                                    <del class="moneydel">门市价&yen;399</del>
+                                    <i>已售39</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu8.jpg" alt="">
+                                <p class="mintitle">好声音KTV（沭阳二店）</p>
+                                <p class="desc">[乐天玛特二店]晚场7小时包段欢唱</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">158</span>
+                                    <del class="moneydel">门市价&yen;1668</del>
+                                    <i>已售53</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu9.jpg" alt="">
+                                <p class="mintitle">醇k量贩</p>
+                                <p class="desc">[宿豫区]下午场 3小时欢畅券</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">29</span>
+                                    <del class="moneydel">门市价&yen;264</del>
+                                    <i>已售856</i>
+                                </p>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/hyh-yu10.jpg" alt="">
+                                <p class="mintitle">宝乐迪量贩式KTV（一店）</p>
+                                <p class="desc">[阳光巴黎城]下午场3小时欢唱券</p>
+                                <div class="tga"></div>
+                                <p class="money">
+                                    &yen;<span class="moneybold">39.9</span>
+                                    <del class="moneydel">门市价&yen;158</del>
+                                    <i>已售691</i>
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 猫眼电影 mydy 部分 S -->
+            <a name="mydy_"></a>
+            <div class="mydy">
+                <div class="boxtitle">
+                    <ul class="clearfix">
+                        <li>猫眼电影</li>
+                        <li onmouseover="prev3()">正在热映</li>
+                        <li onmouseover="next3()">即将上映</li>
+                        <li><a href="#">全部&nbsp;&gt;</a></li>
+                    </ul>
+                </div>
+                <div class="boxcontent" onmouseover="xianshi2()" onmouseout="out2()">
+                    <div class="next" id="next2">
+                        <a href="javascript:void(0)" onclick="next3()">&gt;</a>
+                    </div>
+                    <div class="prev" id="prev2">
+                        <a href="javascript:void(0)" onclick="prev3()">&lt;</a>
+                    </div>
+                    <ul class="clearfix mydy-1" id="mydy_1">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/jiantou1.png" alt="" class="jiantou">
+                                <img src="../../statics/images/index/imax3d.png" alt="" class="mark">
+                                <img src="../../statics/images/index/mydy-ry1.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><b>观众评</b> <span>8.9</span></p>
+                                    <p class="name">雷神3：诸神黄昏</p>
+                                    <span class="buy">购票</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/mydy-ry2.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><b>观众评</b> <span>8.2</span></p>
+                                    <p class="name">密战</p>
+                                    <span class="buy">购票</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/imax3d.png" alt="" class="mark">
+                                <img src="../../statics/images/index/mydy-ry3.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><b>观众评</b> <span>8.7</span></p>
+                                    <p class="name">全球风暴</p>
+                                    <span class="buy">购票</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/mydy-ry4.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><b>观众评</b> <span>8.7</span></p>
+                                    <p class="name">相爱相亲</p>
+                                    <span class="buy">购票</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/3d.png" alt="" class="mark">
+                                <img src="../../statics/images/index/mydy-ry5.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><span>25733</span> <b>人想看</b></p>
+                                    <p class="name">狂兽</p>
+                                    <span class="buy">预售</span>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+
+                    <ul class="clearfix mydy-2" id="mydy_2">
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/jiantou1.png" alt="" class="jiantou">
+                                <img src="../../statics/images/index/mydy-ry6.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><b>观众评</b> <span>9.1</span></p>
+                                    <p class="name">我的爸爸是森林之王</p>
+                                    <span class="buy">购票</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/mydy-ry7.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><b>观众评</b> <span>9.1</span></p>
+                                    <p class="name">羞羞的铁拳</p>
+                                    <span class="buy">购票</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/mydy-ry8.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><span>49403</span> <b>人想看</b></p>
+                                    <p class="name">东方快车谋杀案</p>
+                                    <span class="buy">预售</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/mydy-ry9.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><b>观众评</b> <span>8.7</span></p>
+                                    <p class="name">王牌特工2：黄金圈</p>
+                                    <span class="buy">购票</span>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="content/weikai.html" target="_blank">
+                            <li>
+                                <img src="../../statics/images/index/mydy-ry10.jpg" alt="" class="thumbnail">
+                                <div class="dyinfo">
+                                    <p class="pinfen"><span>22150</span> <b>人想看</b></p>
+                                    <p class="name">烽火芳菲</p>
+                                    <span class="buy">预售</span>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!-- 猫眼电影 mydy 部分 E -->
+
+            <!-- 猜你喜欢 cnxh 部分 S -->
+            <div class="cnxh">
+                <div class="boxtitle">
+                    <ul class="clearfix">
+                        <li>猜你喜欢</li>
+                        <li onmouseover="">为你甄选最适合的</li>
+                        <li onmouseover=""></li>
+                    </ul>
+                </div>
+                <div class="boxcontent"
+                ">
+                <ul class="clearfix cnxh-1" id="cnxh_1">
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/jiantou2.png" alt="" class="jiantou2">
+                            <img src="../../statics/images/index/cnxh-zx1.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">妍语烘焙蛋糕店（恒佳花苑店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>93个评价</p>
+                            <p class="desc"></p>
+                            <p class="money">
+                                &yen;<span class="moneybold">1.25</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx2.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">爱鸭（万福隆店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>2915个评价</p>
+                            <p class="desc"></p>
+                            <p class="money">
+                                &yen;<span class="moneybold">1.0</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx3.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">金鹰百盛动漫城</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>2600个评价</p>
+                            <p class="desc">金鹰国际</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">15.0</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx4.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">超级鸡车（商贸城店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>2886个评价</p>
+                            <p class="desc"></p>
+                            <p class="money">
+                                &yen;<span class="moneybold">3.3</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx5.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">山姆大叔</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>900个评价</p>
+                            <p class="desc">水韵城</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">38.0</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx6.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">金滏山自助烤肉美食中心（苏宁广场店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>7915个评价</p>
+                            <p class="desc">幸福路</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">42.5</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx7.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">粤来越牛潮汕牛肉火锅</p>
+                            <p class="desc"><span class="pinfen">★★★★<span class="pgray">★</span></span>193个评价</p>
+                            <p class="desc">宝龙城市广场</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">78.0</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx8.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">V吧量贩主题KTV</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>2644个评价</p>
+                            <p class="desc"></p>
+                            <p class="money">
+                                &yen;<span class="moneybold">28.0</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx9.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">回味花甲（金港店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>5926个评价</p>
+                            <p class="desc">苏宁广场</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">11.8</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx10.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">汉釜宫时尚自助餐厅</p>
+                            <p class="desc"><span class="pinfen">★★★★<span class="pgray">★</span></span>3507个评价</p>
+                            <p class="desc">水韵城</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">36.0</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx11.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">一只酸奶牛（宿迁学院店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>67个评价</p>
+                            <p class="desc"></p>
+                            <p class="money">
+                                &yen;<span class="moneybold">9.9</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx12.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">悸动奶茶烧仙草&熊手包（宝龙店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>503个评价</p>
+                            <p class="desc">宝龙城市广场</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">3.8</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx13.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">扬歌KTV</p>
+                            <p class="desc"><span class="pinfen">★★★★<span class="pgray">★</span></span>12834个评价</p>
+                            <p class="desc">金鹰国际</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">18.8</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx14.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">自然稻米线</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>900个评价</p>
+                            <p class="desc">幸福路</p>
+                            <p class="money">
+                                &yen;<span class="moneybold">17.8</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+
+                    <a href="content/weikai.html" target="_blank">
+                        <li>
+                            <img src="../../statics/images/index/cnxh-zx15.jpg" alt="" class="thumbnail">
+                            <p class="mintitle">花甲一号（宝龙店）</p>
+                            <p class="desc"><span class="pinfen">★★★★★</span>927个评价</p>
+                            <p class="desc"></p>
+                            <p class="money">
+                                &yen;<span class="moneybold">1.18</span><b>起</b>
+                            </p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <!-- 猜你喜欢 cnxh 部分 E -->
+
+        <!-- 美团导航 mtdh 部分 S -->
+        <div class="mtdh">
+            <div class="boxtitle">
+                <ul class="clearfix">
+                    <li>美团导航</li>
+                    <li onmouseover=""></li>
+                    <li onmouseover=""></li>
+                </ul>
+            </div>
+            <div class="boxcontent">
+                <dl class="clearfix">
+                    <dt>热门城市</dt>
+                    <div class="sublist clearfix">
+                        <dd><a href="#">南京</a></dd>
+                        <dd><a href="#">长沙</a></dd>
+                        <dd><a href="#">广州</a></dd>
+                        <dd><a href="#">东莞</a></dd>
+                        <dd><a href="#">郑州</a></dd>
+                        <dd><a href="#">温州</a></dd>
+                        <dd><a href="#">太原</a></dd>
+                        <dd><a href="#">常州</a></dd>
+                        <dd><a href="#">宁波</a></dd>
+                        <dd><a href="#">福州</a></dd>
+                        <dd><a href="#">合肥</a></dd>
+                        <dd><a href="#">哈尔滨</a></dd>
+                        <dd><a href="#">西安</a></dd>
+                        <dd><a href="#">厦门</a></dd>
+                        <dd><a href="#">北京</a></dd>
+                        <dd><a href="#">天津</a></dd>
+                        <dd><a href="#">济南</a></dd>
+                        <dd><a href="#">昆明</a></dd>
+                        <dd><a href="#">长春</a></dd>
+                        <dd><a href="#">大连</a></dd>
+                    </div>
+                </dl>
+                <dl class="clearfix Class">
+                    <dt>热门分类</dt>
+                    <div class="sublist clearfix">
+                        <dd><a href="#">美食</a></dd>
+                        <dd><a href="#">休闲娱乐</a></dd>
+                        <dd><a href="#">运动健身</a></dd>
+                        <dd><a href="#">生活服务</a></dd>
+                        <dd><a href="#">上门服务</a></dd>
+                        <dd><a href="#">购物</a></dd>
+                        <dd><a href="#">时尚购</a></dd>
+                        <dd><a href="#">本地购物</a></dd>
+                        <dd><a href="#">结婚</a></dd>
+                        <dd><a href="#">摄影写真</a></dd>
+                        <dd><a href="#">母婴亲子</a></dd>
+                        <dd><a href="#">丽人</a></dd>
+                        <dd><a href="#">学习培训</a></dd>
+                        <dd><a href="#">家装</a></dd>
+                        <dd><a href="#">汽车服务</a></dd>
+                        <dd><a href="#">医疗</a></dd>
+                        <dd><a href="#">宠物</a></dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+        <!-- 美团导航 mtdh 部分 E -->
+    </div>
+</div>
+<!-- 网页内容 main 部分 E -->
+</div>
+<!-- 美团首页内容主题 wrap 部分 E -->
+
+<!-- 底部开始 footer 部分 S -->
+<div class="footer" onclick="out()">
+    <div class="container clearfix">
+        <div class="fone">
+            <dl>
+                <dt>用户帮助</dt>
+                <dd><a href="content/weikai.html" target="_blank">美团承诺</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">购物保障</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">申请退款</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">查看美团券密码</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">常见问题</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">用户协议</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">隐私政策</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">反诈骗公告</a></dd>
+            </dl>
+            <dl>
+                <dt>美团服务</dt>
+                <dd><a href="content/mtwm.html">美团外卖</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">猫眼电影</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">美团云</a></dd>
+                <dd><a href="content/hezuo.html">大众点评</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">榛果民宿</a></dd>
+            </dl>
+        </div>
+        <div class="ftwo">
+            <dl>
+                <dt>商家合作</dt>
+                <dd><a href="content/meishi.html">美食商家入驻（非外卖）</a></dd>
+                <dd><a href="content/waimai.html">外卖商家入驻</a></dd>
+                <dd><a href="content/jiudian.html">酒店商家入驻</a></dd>
+                <dd><a href="content/luyou.html">境内度假商家入驻</a></dd>
+                <dd><a href="content/hezuo.html">综合商家入驻</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">榛果民宿房东商家入驻</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">点餐秒付合作申请</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">美团点评智能收银机</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">聚宝盆餐饮开放平台</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">美团智能支付</a></dd>
+            </dl>
+        </div>
+
+        <div class="fthree">
+            <dl>
+                <dt>代理商加盟</a></dt>
+                <dd><a href="content/weikai.html" target="_blank">到店餐饮代理商招募</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">非餐饮代理商招募</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">美团联盟</a></dd>
+            </dl>
+            <dl>
+                <dt>行业规范</dt>
+                <dd><a href="content/weikai.html" target="_blank">美团点评餐饮安全管理办法</a></dd>
+            </dl>
+            <dl>
+                <dt>廉正举报</dt>
+                <dd><a href="content/weikai.html" target="_blank">廉正邮箱</a></dd>
+            </dl>
+        </div>
+
+        <div class="ffour">
+            <dl>
+                <dt>关注美团</dt>
+                <dd><a href="content/weikai.html" target="_blank">美团新浪微博</a></dd>
+            </dl>
+
+
+            <dl>
+                <dt>关于美团</dt>
+                <dd><a href="content/weikai.html" target="_blank">媒体报道</a></dd>
+            </dl>
+            <dl>
+                <dt>公司信息</dt>
+                <dd><a href="content/weikai.html" target="_blank">加入我们</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">法律声明</a></dd>
+                <dd><a href="content/weikai.html" target="_blank">商户服务协议</a></dd>
+            </dl>
+        </div>
+        <div class="ffive">
+            <p class="ftitle">客服电话</p>
+            <p class="fphone">10107888</p>
+            <p class="ftime">（9:00-23:00）</p>
+        </div>
+    </div>
+    <!-- 底部版权开始 footer 部分 S -->
+    <div class="footer-copy " onclick="out()">
+        <div class="fcopy-left">
+            <p>©美团网团购 meituan.com <a href="#">京ICP证070791号</a>
+                <a href="content/weikai.html" target="_blank" 京ICP备10211739号</a> <a href="#">电子公告服务规则</a>
+            </p>
+            <p>
+                <a href="content/weikai.html" target="_blank">广播电视节目制作经营许可证（京）字第03889号</a>
+            </p>
+        </div>
+        <div class="fcopy-right">
+            <p>
+                <a href="content/weikai.html" target="_blank">京公网安备11010502025545号</a>
+            </p>
+        </div>
+    </div>
+    <!-- 底部版权开始 footer 部分 E -->
+</div>
+<!-- 底部开始 footer 部分 E -->
+
+
+</body>
+</html>

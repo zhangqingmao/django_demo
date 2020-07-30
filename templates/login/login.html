@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录&nbsp;|&nbsp;美团网</title>
+    <link rel="stylesheet" href="../../statics/css/common.css">
+    <link rel="shortcut icon" href="../../statics/images/icon.ico">
+    <link rel="stylesheet" href="../../statics/css/login.css">
+</head>
+<body>
+<div id="app">
+    <!-- 上边的美团img -->
+    <div class="dingbu">
+        <a href="/index/login"><img src="../../statics/images/dl/meituan.png" alt=""></a>
+    </div>
+    <form action="" method="post">
+        <!-- 中间的大盒子 -->
+        <div class="zhongjian">
+            <!-- 左边的图片 -->
+            <div class="left">
+                <img src="../../statics/images/dl/datu.jpg" alt="">
+            </div>
+            <!-- 右边的文本框 -->
+            <div class="box">
+                <!-- 右边的文字 -->
+                <span class="diyi">账号登录</span>
+                <a href="#"><span class="dier">手机动态登录</span></a>
+                <!-- 输入框 -->
+                <input type="text" name="mobile" v-model="loginForm.mobile" placeholder="手机号/用户名/邮箱" class="input1"><br><br>
+                <input type="password" name="password" v-model="loginForm.password" placeholder="密码" class="input2">
+                <!-- 按钮跟忘记密码 -->
+                <div class="anbox">
+                    <!-- 按钮 -->
+                    <div class="zd">
+                        <input type="checkbox">七天内自动登录
+                    </div>
+                    <div class="wj">
+                        <a href="#">忘记密码？</a>
+                    </div>
+                </div>
+                <!-- 登录按钮 -->
+                <div class="denglu">
+                    <label for="">&nbsp;</label>
+                    <button @click.prevent="submit" class="login_btn">登录</button>
+                </div>
+                <div class="zh">
+                    <h6>还没有账号？<a href="/login/zc">免费注册</a></h6>
+                </div>
+                <div class="xian">
+                    <h6>用合作网站登录</h6>
+                </div>
+                <div class="qqtp">
+                    <img src="../../statics/images/dl/a3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- 底部盒子 -->
+    <div class="box2">
+        <div class="wenzi2 clearfix">
+
+            <a href="#">关于美团</a>
+            <a href="#">美团承诺</a>
+            <a href="#">加入我们</a>
+            <a href="#">商家入驻</a>
+            <a href="#">帮助中心</a>
+            <a href="#">美团手机</a>
+            <a href="#" class="a1"><img src="../../statics/images/dl/a4.png" alt=""></a>
+        </div>
+
+
+        <p><a href="#" class="a2">©meituan.com</a>&nbsp;&nbsp; <a href="#" class="a2">京ICP证070791号</a> &nbsp;&nbsp;
+            京公网安备11010502025545号</p>
+
+    </div>
+</div>
+<script type="text/javascript" src="../../statics/js/vue.min.js"></script>
+<script type="text/javascript" src="../../statics/js/axios.min.js"></script>
+<script type="text/javascript" src="../../statics/js/mock-min.js"></script>
+<script type="text/javascript" src="../../statics/js/api.js"></script>
+<script type="text/javascript" src="../../statics/js/mock.js"></script>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            loginForm: {}
+        },
+        methods: {
+            submit() {
+                let car = localStorage.getItem("car");
+                let data = {
+                    mobile: this.loginForm.mobile,
+                    password: this.loginForm.password,
+                    car: car
+                };
+                login(data).then(res => {
+                    console.log(res.data)
+                    if (res.data.errno == 0) {
+                        //保存用户的token
+                        localStorage.setItem("token", res.data.token);
+                        //保存用户名
+                        localStorage.setItem("name", res.data.name);
+                        //清除购物车里的数据
+                        localStorage.removeItem("car");
+                        //查看是否是其他页面跳转过来的
+                        let returnURL = sessionStorage.getItem("returnURL");
+                        if (returnURL) {
+                            sessionStorage.removeItem("returnURL")
+                        } else {
+                            alert("登录成功！！");
+                            location.href = "/index/"
+                        }
+                    } else {
+                        alert("登录失败！！")
+                    }
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>

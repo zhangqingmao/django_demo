@@ -1,0 +1,121 @@
+/*重新定义meishi的页面字体颜色 字号*/
+body {
+	color: #333;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+}
+/*定义超链接的颜色*/
+a {
+	color: #333;
+}
+/*重新定义鼠标放上去的显示的颜色*/
+a:hover {
+	color: #0047ff;
+}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,tr,td {
+	padding:0px;
+	margin:0px;
+}
+.container {
+	width: 1340px;
+	margin: 0px auto;
+}
+
+/*头部标签图 S*/
+.header {
+	height: 55px;
+    line-height: 55px;
+    background: #3DC6B6;
+    padding-left: 10%;
+}
+.header .headerimg {
+	width: 980px;
+	height: 55px;
+	margin: 0px auto;
+	line-height: 55px;
+}
+
+/*头部标签图 E*/
+
+
+.man {
+	height: 600px;
+	border:1px solid grey;
+}
+.man .right {
+	width: 320px;
+	height: 360px;
+	margin-top: 150px;
+	padding: 18px;
+	position: absolute;
+	top:0px;
+	right:50%;
+	margin-right: -200px;
+}
+
+.man .kaitou {
+    padding: 20px 0 12px;
+    border-bottom: 1px solid #ececec;
+    width: 275px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.man .kaitou .ktleft {
+	float: left;
+	color: #3dc6b6;
+
+}
+.man .kaitou .ktright {
+	float: right;
+}
+.man .two input ,.man .password input{
+	width: 221px;
+	height: 44px;
+	margin-bottom: 40px;
+	padding-left:14px;
+	border: 1px solid #cdcdcd;
+}
+
+.man .two div ,.man .password div{
+	width: 46px;
+	height: 48px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	line-height: 46px;
+	width: 46px;
+	height: 46px;
+	background-color: #fff;
+	border-top:1px solid #e2e2e4;
+	border-left:1px solid #e2e2e4;
+	border-bottom:1px solid #e2e2e4;
+	border-right:0px solid #e2e2e4;
+}
+/*设置一个小盒子*/
+.man .two .tb-mamber {
+	display: inline-block;
+	width: 17px;
+	height: 20px;
+	background:url(../images/shangjia/ren.bmp) no-repeat -4px -4px;
+}
+.man .password  .tb-lock {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background:url(../images/shangjia/suo.bmp) no-repeat -3px -4px;
+}
+/*记住密码*/
+.man .mima input {
+	width: 18px;
+	height: 18px;
+}
+.man .denglu input {
+	margin-top: 30px;
+	width: 300px;
+	height: 45px;
+	background-color:#20bba9;
+	border: 0px;
+	color: #fff;
+	font-size: 16px
+}

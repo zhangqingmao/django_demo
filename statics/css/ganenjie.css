@@ -1,0 +1,212 @@
+/*重新定义index的页面字体颜色 字号*/
+body {
+	color: #333;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+}
+/*定义超链接的颜色*/
+a {
+	color: #333;
+	text-decoration: none;
+}
+/*重新定义鼠标放上去的显示的颜色*/
+a:hover {
+	color: #0047ff;
+}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,tr,td {
+	padding:0px;
+	margin:0px;
+}
+
+/*双清 清除浮动*/
+.clearfix:before,.clearfix:after {
+ 	content:".";
+ 	height:0px;
+ 	line-height: 0px;
+ 	display: block;
+ 	visibility: hidden;
+ 	clear:both;
+}
+/*双清兼容IE7*/
+.clearfix {
+	*zoom: 1;
+}
+.container {
+	width: 1340px;
+	margin: 0px auto;
+}
+
+/*头部标签图 S*/
+.header {
+	width: 1340px;
+	height: 100%;
+	background-color:#fff;
+	margin-bottom:0px;
+}
+.header .headerimg {
+	width: 980px;
+	height: 100%;
+	margin: 0px auto;
+}
+.header .headerimg img {
+	   vertical-align: middle;
+	   width: 160px;
+	   float:left;
+}
+.header p {
+	vertical-align: middle;
+	display: inline-block;
+	height: 20px;
+	background-color: #fff;
+	color: #ccc;
+	float:right;
+	font-size: 37px;
+    font-family: '华文行楷';
+    margin-top: 21px;
+
+}
+/*头部标签图 E*/
+/*设置文字和图标 S*/
+.container {
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+.bei {
+	background: url(../images/ganenjie/wKgB6lR3Ie2Ae_xwAA2okTyIUOQ55.jpeg) no-repeat center center;
+}
+.container h2 {
+    font-size: 45px;
+    color:#a01c1c;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin-bottom: 78px;
+    margin-bottom: 1.56rem;
+    margin-top: 50px;
+}
+
+.container p {
+	font-size: 18px;
+    color:#20211e;
+    font-weight: bold;
+}
+.container .ul {
+	width: 1190px;
+	height:100%;
+	margin:30px auto;
+	background-color: transparent;
+}
+.container .ul div {
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin: 20px 30px 20px 57px;
+}
+.container .ul span,.container .ul p {
+	/*display: inline-block;*/
+    font-size: 23px;
+    font-family: '华文行楷';
+    color: #231919;
+    margin-top: 10px;
+}
+.container .ul p {
+	font-weight:normal;
+}
+.container .ul .u {
+	margin: 0px;
+	display: none;
+	position: relative;
+}
+.container .ul .jj {
+	width: 266px;
+    height:130px;
+    background-color: #ccc;
+    text-align: left;
+    position: absolute;
+    left: -57px;
+    bottom: -60px;
+    visibility: visible;
+    padding:0px 17px;
+}
+
+.container .ul .a1 {
+	text-align: right;
+	font-size: 14px;
+}
+.container .ul .l1 {
+	background: url(../images/ganenjie/cxb.png) no-repeat center center;
+	background-size: cover;
+}
+.container .ul .l1:hover .u{
+	background: url(../images/ganenjie/cxb2.jpg) no-repeat center center;
+	background-size: cover;
+	display: block;
+}
+.container .ul .l2 {
+	background: url(../images/ganenjie/zxx.jpg) no-repeat center center;
+	background-size: cover;
+}
+.container .ul .l2:hover .u{
+	background: url(../images/ganenjie/zxx2.jpg) no-repeat center center;
+	background-size: cover;
+	display: block;
+}
+.container .ul .l3 {
+	background: url(../images/ganenjie/rgf.jpg) no-repeat center center;
+	background-size: cover;
+}
+.container .ul .l3:hover .u{
+	background: url(../images/ganenjie/rgf2.jpg) no-repeat center center;
+	background-size: cover;
+	display: block;
+}
+.container .ul .l4 {
+	background: url(../images/ganenjie/hc.jpg) no-repeat center center;
+	background-size: cover;
+}
+.container .ul .l4:hover .u{
+	background: url(../images/ganenjie/hc2.jpg) no-repeat center center;
+	background-size: cover;
+	display: block;
+}
+.container .ul .l5 {
+	background: url(../images/ganenjie/pws.jpg) no-repeat center center;
+	background-size: cover;
+}
+.container .ul .l5:hover .u{
+	background: url(../images/ganenjie/pws2.jpg) no-repeat center center;
+	background-size: cover;
+	display: block;
+}
+.container .ul .l6 {
+	background: url(../images/ganenjie/wjx.jpeg) no-repeat center center;
+	background-size: cover;
+}
+.container .ul .l6:hover .u{
+	background: url(../images/ganenjie/wjx2.bmp) no-repeat top center;
+	background-size: cover;
+	display: block;
+}
+/*设置文字和图标 S*/
+
+/*最后的超链接 S */
+.footer {
+	width: 1340px;
+	height:100%;
+	background-color: #fff;
+	margin-top:30px;
+}
+.footer .one a {
+	display: inline-block;
+	text-decoration: none;
+	color:#3dc6b6;
+	font-size: 12px;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.footer .two {
+	font-size: 12px;
+}
+/*最后的超链接 E 

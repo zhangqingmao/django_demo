@@ -1,0 +1,61 @@
+/* 单品正文 S */
+/*  加奶咖啡  */
+.content .row {
+	height: 600px;
+	background-image: url(../images/coffee/91529822720e0cf35e8ad638006f21f09aaf0.jpg.png);
+	background-position: middle bottom;
+}
+.content .row .coffee {
+	font-size: 50px;
+	color :#802f21;
+	margin-left: 765px;
+    padding-top: 15px;
+    height: 60px;
+	font-family: 华文行楷;
+}
+.content .row ul {
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 2.5px;
+	height: 300px;
+	width: 590px;
+	margin-top: 75px;
+	color: #100f0d;
+	text-indent: 2em;
+	float: right;
+}
+.content .row li {
+	display: inline-block;
+	line-height: 2.5;
+}
+.content .row span {
+	display: inline-block;
+	color :#605050;
+	font-size: 22px;
+	float: left;
+    margin-left: 225px;
+    padding-top: 365px;;
+}
+.content span p {
+	display: inline-block;
+	color: #cc1e1e;
+	font-size: 35px;
+}
+.content .row .shop	{
+	width: 145px;
+	height: 46px;
+	background-color: #8f533e;
+	text-align: center;
+	line-height: 46px;
+	border-radius: 10px;
+	display: inline-block;
+	border: 2px solid #8f533e;
+    float: left;
+    margin-top: 438px;
+    margin-left: -156px;
+}
+.content .shop a {
+	font-size: 22px;
+	color: #fff;
+}
+/* 单品正文 E */

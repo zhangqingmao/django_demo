@@ -1,0 +1,112 @@
+/*重新定义index的页面字体颜色 字号*/
+body {
+	color: #333;
+	font-family: "微软雅黑";
+	background-color: #f7f7f7;
+}
+/*定义超链接的颜色*/
+a {
+	color: #333;
+}
+/*重新定义鼠标放上去的显示的颜色*/
+a:hover {
+	color: #0047ff;
+}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,tr,td {
+	padding:0px;
+	margin:0px;
+}
+.container {
+	width: 1340px;
+	margin: 0px auto;
+}
+
+/*头部标签图 S*/
+.header {
+	width: 100%;
+	height: 55px;
+	background-color:#3dc6b6;
+}
+.header .headerimg {
+	width: 980px;
+	height: 55px;
+	margin: 0px auto;
+	line-height: 55px;
+}
+.header .headerimg img {
+	   vertical-align: middle;
+}
+/*头部标签图 E*/
+/*设置文字和图标 S*/
+.container {
+	/* background-color: #f7f7f7;*/
+    text-align: center;
+    padding: 100px 0;
+    padding: 2rem 0;
+}
+.container h2 {
+    font-size: 32px;
+    color: #666;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin-bottom: 78px;
+    margin-bottom: 1.56rem;
+    margin-top: 50px;
+}
+.container ul {
+	display: inline-block;
+	width: 1190px;
+	height: 360px;
+	margin-top: 80px;
+	background-color: #f7f7f7;
+}
+.container ul li {
+	display: inline-block;
+	width: 152px;
+	height: 259px;
+	margin-right: 60px;
+}
+.container ul img {
+	 display: block;
+    text-align: center;
+    line-height: 152px;
+    height: 152px;
+}
+.container .ms {
+	font-size: 20px;
+	font-weight:bold;
+	margin-top: 30px;
+}
+.container .wz {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.container ul img:hover {
+	height: 160px;
+	width: 160px;
+}
+/*设置文字和图标 S*/
+
+/*最后的超链接 S */
+.footer {
+	width: 100%;
+	height: 200px;
+	background-color: #fff;
+	margin-top:30px;
+	color:#999;
+	font-size:10px;
+}
+.footer .one a {
+	display: inline-block;
+	text-decoration: none;
+	color:#3dc6b6;
+	font-size: 14px;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.footer .two {
+	font-size: 12px;
+}
+/*最后的超链接 E 
