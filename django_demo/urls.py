@@ -28,5 +28,6 @@ urlpatterns = [
     path('testdb/', testdb.testdb),
     path('index/login/',testdb.login),
     path('login/zc/',testdb.zc),
-    path('index/',testdb.index)
+    path('index/',testdb.index),
+    path('login/sms/',testdb.sendSms)
 ]
