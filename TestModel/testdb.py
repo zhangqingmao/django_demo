@@ -6,7 +6,7 @@ from django.core.cache import cache
 from TestModel.SMS import SMS
 from TestModel.models import Test
 
-r = redis.Redis(host='182.92.61.254', port=6379, decode_responses=True)
+r = redis.Redis(host='182.92.61.254', port=6379,password=932467, decode_responses=True)
 
 def testdb(request):
     test1 = Test(name='runoob')
@@ -30,8 +30,9 @@ def index(request):
 
 def sendSms(request):
     para = get_random_number_str(6)
-    res = SMS.sendSms('13047588875', para)
-    r.set('13047588875', para, ex=60)
+    print(para)
+    res = SMS.sendSms('15290946377', para)
+    r.set('15290946377', para, ex=60)
     return render(request,'index.html',{'name':'发送成功'})
 
 def get_random_number_str(length):
